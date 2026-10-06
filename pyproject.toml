@@ -35,9 +35,9 @@ vividrgb = "vividRGB.cli:main"
 
 [project.urls]
 Homepage = "https://kics-zert.projectcove.org/"
-Repository = "https://github.com/masahiroryo/vividRGB"
-Issues = "https://github.com/masahiroryo/vividRGB/issues"
-Documentation = "https://github.com/masahiroryo/vividRGB/blob/main/docs/usage.md"
+Repository = "https://github.com/masahiroryo-1988/vividRGB"
+Issues = "https://github.com/masahiroryo-1988/vividRGB/issues"
+Documentation = "https://github.com/masahiroryo-1988/vividRGB/blob/main/docs/usage.md"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/vividRGB"]

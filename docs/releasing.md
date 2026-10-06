@@ -1,6 +1,6 @@
 # Release vividRGB
 
-The package is `vividRGB`, import `vividRGB`, repository `masahiroryo/vividRGB`.
+The package is `vividRGB`, import `vividRGB`, repository `masahiroryo-1988/vividRGB`.
 First candidate version: `0.1.0`. A prepared distribution is not a published PyPI release.
 
 ## Validate and build
@@ -26,7 +26,7 @@ Register a pending publisher for this new project using these exact settings:
 | Setting | TestPyPI | PyPI |
 | --- | --- | --- |
 | Project name | vividRGB | vividRGB |
-| GitHub owner | masahiroryo | masahiroryo |
+| GitHub owner | masahiroryo-1988 | masahiroryo-1988 |
 | Repository | vividRGB | vividRGB |
 | Workflow filename | publish.yml | publish.yml |
 | Environment | testpypi | pypi |

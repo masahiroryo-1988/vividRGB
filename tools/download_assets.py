@@ -34,7 +34,7 @@ def main():
     parser.add_argument('--output', type=Path, default=Path('research-workspace'))
     parser.add_argument('--assets', nargs='*', help='Selected asset filenames; default all')
     parser.add_argument('--list', action='store_true')
-    parser.add_argument('--base-url', default='https://github.com/masahiroryo/vividRGB/releases/download/v0.1.0/')
+    parser.add_argument('--base-url', default='https://github.com/masahiroryo-1988/vividRGB/releases/download/v0.1.0/')
     args = parser.parse_args()
     manifest = json.loads(args.manifest.read_text(encoding='utf-8'))
     if args.list:

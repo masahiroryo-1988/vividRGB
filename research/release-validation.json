@@ -12,13 +12,13 @@
   "distributions": [
     {
       "name": "vividrgb-0.1.0-py3-none-any.whl",
-      "bytes": 20748,
-      "sha256": "55fdaf65a84492ac021f4e836917ed7de2896582860348ece4f422c87f8a9eaf"
+      "bytes": 20756,
+      "sha256": "0232195505912a9ccc54d068248aace8b123b3a535a12775e7cd73c3bf1d581f"
     },
     {
       "name": "vividrgb-0.1.0.tar.gz",
-      "bytes": 48175,
-      "sha256": "6462dbf9d084a0613808ea1d2c8bd70fd4492c918d7c8690b19d10ede85ce378"
+      "bytes": 48185,
+      "sha256": "7c5df31d4fa71005f080aaafbc103ce6246bbd2beabf75acc4f32f78d66f76da"
     }
   ],
   "numeric_evidence": "research/data/independent_numeric_validation.json",
