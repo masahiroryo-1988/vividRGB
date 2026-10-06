@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "images": 50,
+  "datasets": [
+    "moin",
+    "fungal_network",
+    "neon",
+    "coralscapes",
+    "pmid"
+  ],
+  "feature_methods": [
+    "whole",
+    "s05",
+    "s10",
+    "s20"
+  ],
+  "retained_dimensions": [
+    3,
+    16
+  ],
+  "lambda": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "candidate_k": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "concentration_prior": [
+    0.001,
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "selection": "Same frozen ten images per each of five retained datasets. Illustrative collection selected before this sensitivity experiment; no selection based on current outcomes.",
+  "features": "Reuse 200 frozen DINOv3 PCA16 grids. Whole image and local 5/10/20%; local crops enlarged to384x384, inverse-aligned four-flip averaging, approximately75% overlap and Hann blending. Aspect-preserving grid with longest side256. No AnyUp, shared cluster centers, vegetation mask, XY distance features, additional unit-vector normalization or whitening.",
+  "varimax": "Orthogonal varimax of the frozen 768-by-d PCA projection basis, d=3 or16 retained separately. Kaiser row normalization only during loading optimization, restored before projection. Five deterministic starts, SVD iteration, tolerance1e-9,max1000. Select largest criterion; canonical order by loading concentration and sign by largest absolute basis coefficient. Rotated basis B R, rotated scores X R. This explicitly uses projection-weight loadings, not the alternative covariance-loading/factor-score whitening convention. All d rotated axes retained, so reconstructed subspace and Euclidean distances unchanged. Rotated scores can be correlated and are no longer ordered by PCA variance. First3 rotated axes are displayed with equal per-method pooled2/98 percentiles; no cluster fit uses displayed RGB.",
+  "mle_gmm": "Full covariance, n_init3,seed42,reg_covar1e-5,tol0.001,max_iter300,retry600. Refit ALL K1..12 in float64 on the same fixed8192-or-fewer coordinates; sample hash checked against prior experiment. Float64 ensures internally consistent candidate fits; tiny numerical/local-optimum differences from earlier float32 fits are reported. Score=-2*sum(logdensity)+lambda*p*log(n), p=K*(d+d*(d+1)/2)+K-1. Minimum converged score; smallerK exact ties. Lambda1 ordinaryBIC; higher values explicitly stronger penalty. No scores compared across dimensionalities.",
+  "mle_maps": "Use each selected fitted full-covariance model, transform means as means R and covariances as R.T covariance R, and verify pointwise density and predicted partition invariance. Maximum-responsibility assignment across all grid locations; no new DINO extraction.",
+  "bayesian_gmm": "BayesianGaussianMixture; full covariance; maximum12 components; Dirichlet-process stick-breaking prior; alpha0.001,0.01,0.1,1,10,100. Same8192 sample and retained subspace as MLE; fit rotated scores in float64. Seed42,n_init1,tol0.001,max_iter500,retry1000,warm_start. Mean precision1, covariance and degrees-of-freedom priors sklearndefaults (empirical full covariance and d). These variational priors are distinct from multiplying BIC. All convergence states reported. OccupiedK means unique hard assignments across full grid; additionally show components of weight>=1% and>=2%, without deleting or assigning rare groups forcibly. For cases exhausting the initial budget, extend with a5000-iteration warm continuation at the same tolerance; all2400 final models must converge. Warnings from earlier stages are retained alongside the final convergence flag.",
+  "kmeans": "Existing automatic K-means selection and labels are retained as orthogonal-invariance reference. K3..12, spatial-fold silhouette, closest5 among candidates within1SE; final8192 sample,n_init10,seed42. Thus current baseline already includes a soft preference toward5; it is not completely preference-free. Independent original/rotated refits verify10 representative cases.",
+  "distribution": "Empirical frequency across50 images or10 within each domain, separately per feature method and retained dimension. SelectedK is fitted mixture count; occupiedK and area fractions also reported. Not a posterior over species, accuracy score or representative estimate for all ecological images.",
+  "limitations": "Spatially correlated interpolated and overlapping-context features are not independent observations. Penalty and alpha effects depend on sample count, dimensionality and priors; no universally optimal settings inferred. Counts4..6 are a user preference, not biological ground truth. No reviewed object masks are used. Strong penalties can collapse to1 or2 groups, and12 is upper search/truncation limit. Varimax improves loading interpretability/display axes but cannot improve rotation-invariant full-covariance or Euclidean clustering by itself.",
+  "stability": "Earlier frozen ten-image subset, two per domain, local10% both3/16 dimensions. Three fits from two-thirds of8x8 spatial blocks per image; each uses8192 locations, same n as primary. Refit/select all K1..12 for every lambda in each fold; compare selected maps on fixed2048 common probe locations viaARI. Count variation andARI describe repeatability; overlapping/global DINO context means spatial folds remain dependent. No ground truth."
+}

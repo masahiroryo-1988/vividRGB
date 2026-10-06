@@ -1,0 +1,2059 @@
+[
+  {
+    "id": "moin_01",
+    "dataset": "moin",
+    "plot_id": "plot_099",
+    "site": "fessbach",
+    "stratum": "Feßbach · plot_099 · prior rank 13",
+    "original_path": "/home/masahiro/kics-zert2/datasets/moin/plot_all_inputs/originals/plot_099.jpg",
+    "original_dimensions": [
+      4080,
+      3060
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      1016,
+      506,
+      3064,
+      2554
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "ae26fcdc83a5d6e63365c7753555472d21459d696e2967bb58e454e80631f46c",
+    "input_sha256": "7f99a7a1e76cb34321507dbbab03306a60e18d9f8f936e22197a57d1e656c046",
+    "seed": 20261001,
+    "reference_available": false,
+    "reference_kind": null,
+    "reference_note": "No verified leaf/organism segmentation reference. Existing taxonomy and visual rankings are not pixel ground truth.",
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured; no vegetation mask is applied.",
+    "smallest_resolved_structure": "Not measured; native pixel dimensions do not establish optical resolution.",
+    "physical_resolution": null,
+    "source": "User-provided KICS_ZERT_2025.zip",
+    "source_member": "2025/Annotation Indicator/Plot view/all_farms_plot/fessbach/20250706/IMG_20250706_132459.jpg",
+    "license": "User-provided research dataset; no public redistribution license asserted.",
+    "selection": "Frozen prior 20-photo pilot: highest and lowest within-site rank quintile members at all four sites, plus middle-quintile members at Feßbach and Heidesheim. This covers prior variation and is not a representative random sample of all439 photos. No new benchmark outcomes used.",
+    "prior_visual_rank": 13,
+    "prior_visual_quintile": 1,
+    "prior_selection_sha256": "0d7083b88dc11a436a4531e5c3a721d528f596a22ab29db7647afe95a4e15729",
+    "exif_orientation_applied": 1,
+    "native_window_coordinate_system": "EXIF-oriented original pixels",
+    "original_note": "Original JPEG retained. EXIF orientation followed by a native center window; no inpainting, vegetation mask, upscaling, or annotation-driven segmentation prompt."
+  },
+  {
+    "id": "moin_02",
+    "dataset": "moin",
+    "plot_id": "plot_138",
+    "site": "fessbach",
+    "stratum": "Feßbach · plot_138 · prior rank 217",
+    "original_path": "/home/masahiro/kics-zert2/datasets/moin/plot_all_inputs/originals/plot_138.jpg",
+    "original_dimensions": [
+      4080,
+      3060
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      1016,
+      506,
+      3064,
+      2554
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "d375699a9992496ae0dddcc0fb64fb24cc1e1df5f3415b2bbbbb1a8acace5400",
+    "input_sha256": "ff1f57811fff50b2d77b1fbca1f07c113fc3c1fc2f58af97787eeee53f468324",
+    "seed": 20261001,
+    "reference_available": false,
+    "reference_kind": null,
+    "reference_note": "No verified leaf/organism segmentation reference. Existing taxonomy and visual rankings are not pixel ground truth.",
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured; no vegetation mask is applied.",
+    "smallest_resolved_structure": "Not measured; native pixel dimensions do not establish optical resolution.",
+    "physical_resolution": null,
+    "source": "User-provided KICS_ZERT_2025.zip",
+    "source_member": "2025/Annotation Indicator/Plot view/all_farms_plot/fessbach/20250820/IMG_20250820_114128.jpg",
+    "license": "User-provided research dataset; no public redistribution license asserted.",
+    "selection": "Frozen prior 20-photo pilot: highest and lowest within-site rank quintile members at all four sites, plus middle-quintile members at Feßbach and Heidesheim. This covers prior variation and is not a representative random sample of all439 photos. No new benchmark outcomes used.",
+    "prior_visual_rank": 217,
+    "prior_visual_quintile": 3,
+    "prior_selection_sha256": "0d7083b88dc11a436a4531e5c3a721d528f596a22ab29db7647afe95a4e15729",
+    "exif_orientation_applied": 1,
+    "native_window_coordinate_system": "EXIF-oriented original pixels",
+    "original_note": "Original JPEG retained. EXIF orientation followed by a native center window; no inpainting, vegetation mask, upscaling, or annotation-driven segmentation prompt."
+  },
+  {
+    "id": "moin_03",
+    "dataset": "moin",
+    "plot_id": "plot_082",
+    "site": "fessbach",
+    "stratum": "Feßbach · plot_082 · prior rank 353",
+    "original_path": "/home/masahiro/kics-zert2/datasets/moin/plot_all_inputs/originals/plot_082.jpg",
+    "original_dimensions": [
+      4080,
+      3060
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      1016,
+      506,
+      3064,
+      2554
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "51e3161971ab69e54a4b9d0ea6ee31e40b7d50cbe97026c57468ca714c9d8e36",
+    "input_sha256": "ae115e3dee8d4dc8b241755f754ce4d53249a607b2760ad2ac94a56d3695f5ba",
+    "seed": 20261001,
+    "reference_available": false,
+    "reference_kind": null,
+    "reference_note": "No verified leaf/organism segmentation reference. Existing taxonomy and visual rankings are not pixel ground truth.",
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured; no vegetation mask is applied.",
+    "smallest_resolved_structure": "Not measured; native pixel dimensions do not establish optical resolution.",
+    "physical_resolution": null,
+    "source": "User-provided KICS_ZERT_2025.zip",
+    "source_member": "2025/Annotation Indicator/Plot view/all_farms_plot/fessbach/20250706/IMG_20250706_113951.jpg",
+    "license": "User-provided research dataset; no public redistribution license asserted.",
+    "selection": "Frozen prior 20-photo pilot: highest and lowest within-site rank quintile members at all four sites, plus middle-quintile members at Feßbach and Heidesheim. This covers prior variation and is not a representative random sample of all439 photos. No new benchmark outcomes used.",
+    "prior_visual_rank": 353,
+    "prior_visual_quintile": 5,
+    "prior_selection_sha256": "0d7083b88dc11a436a4531e5c3a721d528f596a22ab29db7647afe95a4e15729",
+    "exif_orientation_applied": 1,
+    "native_window_coordinate_system": "EXIF-oriented original pixels",
+    "original_note": "Original JPEG retained. EXIF orientation followed by a native center window; no inpainting, vegetation mask, upscaling, or annotation-driven segmentation prompt."
+  },
+  {
+    "id": "moin_04",
+    "dataset": "moin",
+    "plot_id": "plot_241",
+    "site": "heidesheim",
+    "stratum": "Heidesheim · plot_241 · prior rank 28",
+    "original_path": "/home/masahiro/kics-zert2/datasets/moin/plot_all_inputs/originals/plot_241.jpg",
+    "original_dimensions": [
+      4080,
+      3060
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      1016,
+      506,
+      3064,
+      2554
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "f9d38388a3269a64ffebc5b7a2ccfdfaa2b75fc2da3dbd0c9d31c17a910a19d5",
+    "input_sha256": "d9b1f05b1b52000475ef97ccad601a7978beed4950cdaa1a55c027d7b53075b4",
+    "seed": 20261001,
+    "reference_available": false,
+    "reference_kind": null,
+    "reference_note": "No verified leaf/organism segmentation reference. Existing taxonomy and visual rankings are not pixel ground truth.",
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured; no vegetation mask is applied.",
+    "smallest_resolved_structure": "Not measured; native pixel dimensions do not establish optical resolution.",
+    "physical_resolution": null,
+    "source": "User-provided KICS_ZERT_2025.zip",
+    "source_member": "2025/Annotation Indicator/Plot view/all_farms_plot/heidesheim/20250809/IMG_20250809_131611.jpg",
+    "license": "User-provided research dataset; no public redistribution license asserted.",
+    "selection": "Frozen prior 20-photo pilot: highest and lowest within-site rank quintile members at all four sites, plus middle-quintile members at Feßbach and Heidesheim. This covers prior variation and is not a representative random sample of all439 photos. No new benchmark outcomes used.",
+    "prior_visual_rank": 28,
+    "prior_visual_quintile": 1,
+    "prior_selection_sha256": "0d7083b88dc11a436a4531e5c3a721d528f596a22ab29db7647afe95a4e15729",
+    "exif_orientation_applied": 1,
+    "native_window_coordinate_system": "EXIF-oriented original pixels",
+    "original_note": "Original JPEG retained. EXIF orientation followed by a native center window; no inpainting, vegetation mask, upscaling, or annotation-driven segmentation prompt."
+  },
+  {
+    "id": "moin_05",
+    "dataset": "moin",
+    "plot_id": "plot_177",
+    "site": "heidesheim",
+    "stratum": "Heidesheim · plot_177 · prior rank 306",
+    "original_path": "/home/masahiro/kics-zert2/datasets/moin/plot_all_inputs/originals/plot_177.jpg",
+    "original_dimensions": [
+      4000,
+      3000
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      976,
+      476,
+      3024,
+      2524
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "f7d360c5b395c74391fd847d1ef4f76aedbdff565d57c423efc37d98cc102ea3",
+    "input_sha256": "8619cc3cf3c9d79af43f650d06bf4a49d0f6355529739f89a9dcbf1ee4ee2758",
+    "seed": 20261001,
+    "reference_available": false,
+    "reference_kind": null,
+    "reference_note": "No verified leaf/organism segmentation reference. Existing taxonomy and visual rankings are not pixel ground truth.",
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured; no vegetation mask is applied.",
+    "smallest_resolved_structure": "Not measured; native pixel dimensions do not establish optical resolution.",
+    "physical_resolution": null,
+    "source": "User-provided KICS_ZERT_2025.zip",
+    "source_member": "2025/Annotation Indicator/Plot view/all_farms_plot/heidesheim/20250625/20250625_093736.jpg",
+    "license": "User-provided research dataset; no public redistribution license asserted.",
+    "selection": "Frozen prior 20-photo pilot: highest and lowest within-site rank quintile members at all four sites, plus middle-quintile members at Feßbach and Heidesheim. This covers prior variation and is not a representative random sample of all439 photos. No new benchmark outcomes used.",
+    "prior_visual_rank": 306,
+    "prior_visual_quintile": 3,
+    "prior_selection_sha256": "0d7083b88dc11a436a4531e5c3a721d528f596a22ab29db7647afe95a4e15729",
+    "exif_orientation_applied": 1,
+    "native_window_coordinate_system": "EXIF-oriented original pixels",
+    "original_note": "Original JPEG retained. EXIF orientation followed by a native center window; no inpainting, vegetation mask, upscaling, or annotation-driven segmentation prompt."
+  },
+  {
+    "id": "moin_06",
+    "dataset": "moin",
+    "plot_id": "plot_206",
+    "site": "heidesheim",
+    "stratum": "Heidesheim · plot_206 · prior rank 393",
+    "original_path": "/home/masahiro/kics-zert2/datasets/moin/plot_all_inputs/originals/plot_206.jpg",
+    "original_dimensions": [
+      4080,
+      3060
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      1016,
+      506,
+      3064,
+      2554
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "de77bbbabf417c91c95f2be728cebb92c5d6b592ae8a8bfa26a0f31e5d46d077",
+    "input_sha256": "a1b3dbb783352e84d4b128a26ac313965cc7b30f69e8afbd07ce466bd3d28a87",
+    "seed": 20261001,
+    "reference_available": false,
+    "reference_kind": null,
+    "reference_note": "No verified leaf/organism segmentation reference. Existing taxonomy and visual rankings are not pixel ground truth.",
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured; no vegetation mask is applied.",
+    "smallest_resolved_structure": "Not measured; native pixel dimensions do not establish optical resolution.",
+    "physical_resolution": null,
+    "source": "User-provided KICS_ZERT_2025.zip",
+    "source_member": "2025/Annotation Indicator/Plot view/all_farms_plot/heidesheim/20250709/IMG_20250709_111616.jpg",
+    "license": "User-provided research dataset; no public redistribution license asserted.",
+    "selection": "Frozen prior 20-photo pilot: highest and lowest within-site rank quintile members at all four sites, plus middle-quintile members at Feßbach and Heidesheim. This covers prior variation and is not a representative random sample of all439 photos. No new benchmark outcomes used.",
+    "prior_visual_rank": 393,
+    "prior_visual_quintile": 5,
+    "prior_selection_sha256": "0d7083b88dc11a436a4531e5c3a721d528f596a22ab29db7647afe95a4e15729",
+    "exif_orientation_applied": 1,
+    "native_window_coordinate_system": "EXIF-oriented original pixels",
+    "original_note": "Original JPEG retained. EXIF orientation followed by a native center window; no inpainting, vegetation mask, upscaling, or annotation-driven segmentation prompt."
+  },
+  {
+    "id": "moin_07",
+    "dataset": "moin",
+    "plot_id": "plot_317",
+    "site": "rettmer",
+    "stratum": "Rettmer · plot_317 · prior rank 38",
+    "original_path": "/home/masahiro/kics-zert2/datasets/moin/plot_all_inputs/originals/plot_317.jpg",
+    "original_dimensions": [
+      3553,
+      2672
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      752,
+      312,
+      2800,
+      2360
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "9856acfdf4213e764d81cc31081b9f1cd315b12b9b63496dc70c9f1ffa64be2f",
+    "input_sha256": "e9ee6853ba2e4afe6b6a07a80249f892b678dbcaaae669acc56ffd48ff3abaad",
+    "seed": 20261001,
+    "reference_available": false,
+    "reference_kind": null,
+    "reference_note": "No verified leaf/organism segmentation reference. Existing taxonomy and visual rankings are not pixel ground truth.",
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured; no vegetation mask is applied.",
+    "smallest_resolved_structure": "Not measured; native pixel dimensions do not establish optical resolution.",
+    "physical_resolution": null,
+    "source": "User-provided KICS_ZERT_2025.zip",
+    "source_member": "2025/Annotation Indicator/Plot view/all_farms_plot/rettmer/20250729/MB_A/RET_MB_A_P_II.JPG",
+    "license": "User-provided research dataset; no public redistribution license asserted.",
+    "selection": "Frozen prior 20-photo pilot: highest and lowest within-site rank quintile members at all four sites, plus middle-quintile members at Feßbach and Heidesheim. This covers prior variation and is not a representative random sample of all439 photos. No new benchmark outcomes used.",
+    "prior_visual_rank": 38,
+    "prior_visual_quintile": 1,
+    "prior_selection_sha256": "0d7083b88dc11a436a4531e5c3a721d528f596a22ab29db7647afe95a4e15729",
+    "exif_orientation_applied": 1,
+    "native_window_coordinate_system": "EXIF-oriented original pixels",
+    "original_note": "Original JPEG retained. EXIF orientation followed by a native center window; no inpainting, vegetation mask, upscaling, or annotation-driven segmentation prompt."
+  },
+  {
+    "id": "moin_08",
+    "dataset": "moin",
+    "plot_id": "plot_271",
+    "site": "rettmer",
+    "stratum": "Rettmer · plot_271 · prior rank 416",
+    "original_path": "/home/masahiro/kics-zert2/datasets/moin/plot_all_inputs/originals/plot_271.jpg",
+    "original_dimensions": [
+      3096,
+      5504
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      524,
+      1728,
+      2572,
+      3776
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "b6be6e151307c0d6e32278a5d296f7397f54692e4cbb19bdc53424a055dc40a2",
+    "input_sha256": "5f0467633478e19e45df8127336bcec08cc332f5bd275358702401090dc2f1cb",
+    "seed": 20261001,
+    "reference_available": false,
+    "reference_kind": null,
+    "reference_note": "No verified leaf/organism segmentation reference. Existing taxonomy and visual rankings are not pixel ground truth.",
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured; no vegetation mask is applied.",
+    "smallest_resolved_structure": "Not measured; native pixel dimensions do not establish optical resolution.",
+    "physical_resolution": null,
+    "source": "User-provided KICS_ZERT_2025.zip",
+    "source_member": "2025/Annotation Indicator/Plot view/all_farms_plot/rettmer/20250523/IW/RET_IW_P_IV.JPG",
+    "license": "User-provided research dataset; no public redistribution license asserted.",
+    "selection": "Frozen prior 20-photo pilot: highest and lowest within-site rank quintile members at all four sites, plus middle-quintile members at Feßbach and Heidesheim. This covers prior variation and is not a representative random sample of all439 photos. No new benchmark outcomes used.",
+    "prior_visual_rank": 416,
+    "prior_visual_quintile": 5,
+    "prior_selection_sha256": "0d7083b88dc11a436a4531e5c3a721d528f596a22ab29db7647afe95a4e15729",
+    "exif_orientation_applied": 6,
+    "native_window_coordinate_system": "EXIF-oriented original pixels",
+    "original_note": "Original JPEG retained. EXIF orientation followed by a native center window; no inpainting, vegetation mask, upscaling, or annotation-driven segmentation prompt."
+  },
+  {
+    "id": "moin_09",
+    "dataset": "moin",
+    "plot_id": "plot_409",
+    "site": "ribbeck",
+    "stratum": "Ribbeck · plot_409 · prior rank 18",
+    "original_path": "/home/masahiro/kics-zert2/datasets/moin/plot_all_inputs/originals/plot_409.jpg",
+    "original_dimensions": [
+      5664,
+      2752
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      1808,
+      352,
+      3856,
+      2400
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "7d64e1f5b9406615ff6e9860896f32ebf1deda2b49fe44aa7300553fe279ec02",
+    "input_sha256": "625b29d1b4efaae36e2ccac6ae578a1ee624c6670e7f521e34465b9bbd53741b",
+    "seed": 20261001,
+    "reference_available": false,
+    "reference_kind": null,
+    "reference_note": "No verified leaf/organism segmentation reference. Existing taxonomy and visual rankings are not pixel ground truth.",
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured; no vegetation mask is applied.",
+    "smallest_resolved_structure": "Not measured; native pixel dimensions do not establish optical resolution.",
+    "physical_resolution": null,
+    "source": "User-provided KICS_ZERT_2025.zip",
+    "source_member": "2025/Annotation Indicator/Plot view/all_farms_plot/ribbeck/RIB_20-08-2025/RIB_MB_A_20-08-2025/RIB_MB_A_P_I_N_20-08-2025_112424.jpg",
+    "license": "User-provided research dataset; no public redistribution license asserted.",
+    "selection": "Frozen prior 20-photo pilot: highest and lowest within-site rank quintile members at all four sites, plus middle-quintile members at Feßbach and Heidesheim. This covers prior variation and is not a representative random sample of all439 photos. No new benchmark outcomes used.",
+    "prior_visual_rank": 18,
+    "prior_visual_quintile": 1,
+    "prior_selection_sha256": "0d7083b88dc11a436a4531e5c3a721d528f596a22ab29db7647afe95a4e15729",
+    "exif_orientation_applied": 3,
+    "native_window_coordinate_system": "EXIF-oriented original pixels",
+    "original_note": "Original JPEG retained. EXIF orientation followed by a native center window; no inpainting, vegetation mask, upscaling, or annotation-driven segmentation prompt."
+  },
+  {
+    "id": "moin_10",
+    "dataset": "moin",
+    "plot_id": "plot_395",
+    "site": "ribbeck",
+    "stratum": "Ribbeck · plot_395 · prior rank 423",
+    "original_path": "/home/masahiro/kics-zert2/datasets/moin/plot_all_inputs/originals/plot_395.jpg",
+    "original_dimensions": [
+      5664,
+      2752
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      1808,
+      352,
+      3856,
+      2400
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "0b240dddd9f6d7c365841608f85a45d4550c6e75a57560f759209b2f8881c11a",
+    "input_sha256": "403d82d69411c3a38306417765d2c69da3fa241fc8673df7b96713cdcfb4f7bd",
+    "seed": 20261001,
+    "reference_available": false,
+    "reference_kind": null,
+    "reference_note": "No verified leaf/organism segmentation reference. Existing taxonomy and visual rankings are not pixel ground truth.",
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured; no vegetation mask is applied.",
+    "smallest_resolved_structure": "Not measured; native pixel dimensions do not establish optical resolution.",
+    "physical_resolution": null,
+    "source": "User-provided KICS_ZERT_2025.zip",
+    "source_member": "2025/Annotation Indicator/Plot view/all_farms_plot/ribbeck/RIB_20-08-2025/RIB_B_B_20-08-2025/RIB_B_B_P_I_N_20-08-2025_095619.jpg",
+    "license": "User-provided research dataset; no public redistribution license asserted.",
+    "selection": "Frozen prior 20-photo pilot: highest and lowest within-site rank quintile members at all four sites, plus middle-quintile members at Feßbach and Heidesheim. This covers prior variation and is not a representative random sample of all439 photos. No new benchmark outcomes used.",
+    "prior_visual_rank": 423,
+    "prior_visual_quintile": 5,
+    "prior_selection_sha256": "0d7083b88dc11a436a4531e5c3a721d528f596a22ab29db7647afe95a4e15729",
+    "exif_orientation_applied": 1,
+    "native_window_coordinate_system": "EXIF-oriented original pixels",
+    "original_note": "Original JPEG retained. EXIF orientation followed by a native center window; no inpainting, vegetation mask, upscaling, or annotation-driven segmentation prompt."
+  },
+  {
+    "id": "fungal_network_01",
+    "dataset": "fungal_network",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/fungal_network/C41(3)_t25_c.jpg",
+    "original_dimensions": [
+      8192,
+      5528
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      3072,
+      1740,
+      5120,
+      3788
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "52c6396e760dfa71b1a61aab488acd323fd8d59b625ccaa5fe0d114ce46ec912",
+    "input_sha256": "c756bf6b748b61c7889b1ec3757851e3d71bfde886fe7c35f4b1cff4e81994f6",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "ascomycota",
+    "source": "https://zenodo.org/records/5725751",
+    "license": "CC BY 4.0",
+    "source_member": "C41(3)_t25_c.jpg",
+    "selection": "Fixed-seed sample:4 ascomycota,3 basidiomycota,3 zygomycetous images; native center window.",
+    "reference_kind": null,
+    "physical_resolution": null
+  },
+  {
+    "id": "fungal_network_02",
+    "dataset": "fungal_network",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/fungal_network/C41(2)_t25_c.jpg",
+    "original_dimensions": [
+      8192,
+      5507
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      3072,
+      1729,
+      5120,
+      3777
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "6bab0dad5727a421605fa1757d6488f98a3aa03a94b3735ac8f659344589ef42",
+    "input_sha256": "d9ab8d279678e55b4f3dd6035a258001fcbdf2e5bb0b073bc96646713101ff13",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "ascomycota",
+    "source": "https://zenodo.org/records/5725751",
+    "license": "CC BY 4.0",
+    "source_member": "C41(2)_t25_c.jpg",
+    "selection": "Fixed-seed sample:4 ascomycota,3 basidiomycota,3 zygomycetous images; native center window.",
+    "reference_kind": null,
+    "physical_resolution": null
+  },
+  {
+    "id": "fungal_network_03",
+    "dataset": "fungal_network",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/fungal_network/DF9(4)_t25_c.jpg",
+    "original_dimensions": [
+      8192,
+      5632
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      3072,
+      1792,
+      5120,
+      3840
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "8ecaddabc6fd1d8b9bafe144c30bbdea375ed2c0376a79ef1d24e8f3c0f901db",
+    "input_sha256": "e539a3da8918f2c519d0eca150a12491dde82fa6e6101be684911f0ccf5afa6f",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "ascomycota",
+    "source": "https://zenodo.org/records/5725751",
+    "license": "CC BY 4.0",
+    "source_member": "DF9(4)_t25_c.jpg",
+    "selection": "Fixed-seed sample:4 ascomycota,3 basidiomycota,3 zygomycetous images; native center window.",
+    "reference_kind": null,
+    "physical_resolution": null
+  },
+  {
+    "id": "fungal_network_04",
+    "dataset": "fungal_network",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/fungal_network/C41(1)_t25_c.jpg",
+    "original_dimensions": [
+      8192,
+      5514
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      3072,
+      1733,
+      5120,
+      3781
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "2c1fd1898482e6769364c44d158e9feba9c84c49573745e9d15c7330cf9eabdb",
+    "input_sha256": "1f0fceca4755522a6a714353fbe437e2a4bf6f57b622b078ad4c211fb430ccde",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "ascomycota",
+    "source": "https://zenodo.org/records/5725751",
+    "license": "CC BY 4.0",
+    "source_member": "C41(1)_t25_c.jpg",
+    "selection": "Fixed-seed sample:4 ascomycota,3 basidiomycota,3 zygomycetous images; native center window.",
+    "reference_kind": null,
+    "physical_resolution": null
+  },
+  {
+    "id": "fungal_network_05",
+    "dataset": "fungal_network",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/fungal_network/Rb_ctrl1_d8_2.jpg",
+    "original_dimensions": [
+      3648,
+      2736
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      800,
+      344,
+      2848,
+      2392
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "2004e7a4ee375ca4c36358ec0fe6052fc9dab46cf62c61abc8a75d047ce8b790",
+    "input_sha256": "237b5fc2c0701b56570d3ed962383dee21aa7381d227f0e22ecae351411805c8",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "basidiomycota",
+    "source": "https://zenodo.org/records/5725751",
+    "license": "CC BY 4.0",
+    "source_member": "Rb_ctrl1_d8_2.jpg",
+    "selection": "Fixed-seed sample:4 ascomycota,3 basidiomycota,3 zygomycetous images; native center window.",
+    "reference_kind": null,
+    "physical_resolution": null
+  },
+  {
+    "id": "fungal_network_06",
+    "dataset": "fungal_network",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/fungal_network/Rb_ctrl1_d8_3.jpg",
+    "original_dimensions": [
+      2736,
+      3648
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      344,
+      800,
+      2392,
+      2848
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "ecba63e2f4a10f8c0545b9cf94132032a4863505a11f393b66d97e8e6cfcfe34",
+    "input_sha256": "053e94ea5d74e3d55839780516a4a6b133ed6e2f060046cb09a21367b10d082b",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "basidiomycota",
+    "source": "https://zenodo.org/records/5725751",
+    "license": "CC BY 4.0",
+    "source_member": "Rb_ctrl1_d8_3.jpg",
+    "selection": "Fixed-seed sample:4 ascomycota,3 basidiomycota,3 zygomycetous images; native center window.",
+    "reference_kind": null,
+    "physical_resolution": null
+  },
+  {
+    "id": "fungal_network_07",
+    "dataset": "fungal_network",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/fungal_network/Rb_ctrl1_d8_4.jpg",
+    "original_dimensions": [
+      3648,
+      2736
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      800,
+      344,
+      2848,
+      2392
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "0f37b914b41f14cfe81bbdb88552390c679cb1c43a2ee9e7f6297754183975f8",
+    "input_sha256": "2bac238e6c26470b55367be44258933c44fdada2de22f6d3cfaf56509ae32fde",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "basidiomycota",
+    "source": "https://zenodo.org/records/5725751",
+    "license": "CC BY 4.0",
+    "source_member": "Rb_ctrl1_d8_4.jpg",
+    "selection": "Fixed-seed sample:4 ascomycota,3 basidiomycota,3 zygomycetous images; native center window.",
+    "reference_kind": null,
+    "physical_resolution": null
+  },
+  {
+    "id": "fungal_network_08",
+    "dataset": "fungal_network",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/fungal_network/DF56(4)_t11.jpg",
+    "original_dimensions": [
+      27007,
+      18220
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      12479,
+      8086,
+      14527,
+      10134
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "72de49e069297a89c4313dbc4ada4de5327c9cbe271708b7bc5e2fb03e76fbeb",
+    "input_sha256": "0adf7321a99380bf70378ae73bf9a3ce091817434842f11546e8eb1a72d3e2f3",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "Zygomycetous3",
+    "source": "https://zenodo.org/records/5725751",
+    "license": "CC BY 4.0",
+    "source_member": "DF56(4)_t11.jpg",
+    "selection": "Fixed-seed sample:4 ascomycota,3 basidiomycota,3 zygomycetous images; native center window.",
+    "reference_kind": null,
+    "physical_resolution": null
+  },
+  {
+    "id": "fungal_network_09",
+    "dataset": "fungal_network",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/fungal_network/DF56(6)_t09.jpg",
+    "original_dimensions": [
+      27280,
+      18477
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      12616,
+      8214,
+      14664,
+      10262
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "10769eca8a3fb751a66605f80b9743e49d89b4af2ba37ffe65228cb851467808",
+    "input_sha256": "70f8aaaf1c62bb458914a95b1f4b5e48ed695240e4d5d957bf2ff94e85121ce6",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "Zygomycetous3",
+    "source": "https://zenodo.org/records/5725751",
+    "license": "CC BY 4.0",
+    "source_member": "DF56(6)_t09.jpg",
+    "selection": "Fixed-seed sample:4 ascomycota,3 basidiomycota,3 zygomycetous images; native center window.",
+    "reference_kind": null,
+    "physical_resolution": null
+  },
+  {
+    "id": "fungal_network_10",
+    "dataset": "fungal_network",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/fungal_network/DF56(5)_t09.jpg",
+    "original_dimensions": [
+      27241,
+      18191
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      12596,
+      8071,
+      14644,
+      10119
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "0d65e38ea9c93eda04646dd77c632c2b4579d04733119d6403e71248901a6902",
+    "input_sha256": "99b5c0f61a48aa714c5fec2f43b91adab98315528c2a9d68da1005a11354f653",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "Zygomycetous3",
+    "source": "https://zenodo.org/records/5725751",
+    "license": "CC BY 4.0",
+    "source_member": "DF56(5)_t09.jpg",
+    "selection": "Fixed-seed sample:4 ascomycota,3 basidiomycota,3 zygomycetous images; native center window.",
+    "reference_kind": null,
+    "physical_resolution": null
+  },
+  {
+    "id": "neon_01",
+    "dataset": "neon",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/neon/2018_HARV_5_733000_4698000_image_crop.tif",
+    "original_dimensions": [
+      1634,
+      1361
+    ],
+    "working_dimensions": [
+      1632,
+      1360
+    ],
+    "native_window": [
+      1,
+      0,
+      1633,
+      1360
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "8270827952b31b34c7c336d832e0b77589b5c04cdd6827fe13997cb82f26435b",
+    "input_sha256": "9a81fd3b76f66279bedfcfba5b6adba1638eadd414fb6850a943dc380628b805",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "HARV",
+    "source": "https://zenodo.org/records/5914554",
+    "license": "cc-by-4.0",
+    "source_member": "RGB/2018_HARV_5_733000_4698000_image_crop.tif",
+    "selection": "One fixed-seed sampled archived training RGB tile per site with short side>=1024; native center window. Models are not trained on these data.",
+    "reference_kind": null,
+    "reference_note": "No pixel-level crown contours in this release; box annotations are not used as silhouette truth.",
+    "physical_resolution": {
+      "x": 0.10000000000001424,
+      "y": 0.09999999999972628,
+      "units": "CRS map units / pixel",
+      "crs": "EPSG:32618"
+    }
+  },
+  {
+    "id": "neon_02",
+    "dataset": "neon",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/neon/2019_YELL_2_528000_4978000_image_crop2.tif",
+    "original_dimensions": [
+      2299,
+      2472
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      125,
+      212,
+      2173,
+      2260
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "b0cfc5624a36e7a8fe779e727abdfc6b473e1f50d62236da60ad5dd56792876d",
+    "input_sha256": "f9c7a2532417ad31163b6ecd3f8e5d6cda2d659996db80fdba928f939336484d",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "YELL",
+    "source": "https://zenodo.org/records/5914554",
+    "license": "cc-by-4.0",
+    "source_member": "RGB/2019_YELL_2_528000_4978000_image_crop2.tif",
+    "selection": "One fixed-seed sampled archived training RGB tile per site with short side>=1024; native center window. Models are not trained on these data.",
+    "reference_kind": null,
+    "reference_note": "No pixel-level crown contours in this release; box annotations are not used as silhouette truth.",
+    "physical_resolution": {
+      "x": 1.0,
+      "y": 1.0,
+      "units": "CRS map units / pixel",
+      "crs": "None"
+    }
+  },
+  {
+    "id": "neon_03",
+    "dataset": "neon",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/neon/2018_MLBS_3_541000_4140000_image_crop.tif",
+    "original_dimensions": [
+      1429,
+      1864
+    ],
+    "working_dimensions": [
+      1424,
+      1856
+    ],
+    "native_window": [
+      2,
+      4,
+      1426,
+      1860
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "24fa1e1c7609794a55f216f496c047147ab132034d938324180cfa5d88a332c7",
+    "input_sha256": "8d06381e3bb4114fe18ffb8f96206abce380f8db3021fd113f877de7784d6dcd",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "MLBS",
+    "source": "https://zenodo.org/records/5914554",
+    "license": "cc-by-4.0",
+    "source_member": "RGB/2018_MLBS_3_541000_4140000_image_crop.tif",
+    "selection": "One fixed-seed sampled archived training RGB tile per site with short side>=1024; native center window. Models are not trained on these data.",
+    "reference_kind": null,
+    "reference_note": "No pixel-level crown contours in this release; box annotations are not used as silhouette truth.",
+    "physical_resolution": {
+      "x": 0.1000000000000163,
+      "y": 0.09999999999995003,
+      "units": "CRS map units / pixel",
+      "crs": "EPSG:32617"
+    }
+  },
+  {
+    "id": "neon_04",
+    "dataset": "neon",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/neon/2018_NIWO_2_450000_4426000_image_crop.tif",
+    "original_dimensions": [
+      2511,
+      4132
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      231,
+      1042,
+      2279,
+      3090
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "c6c078c83dc35e59389f13b33de69ff2d743003ce7cd21f2f22f596eb4761481",
+    "input_sha256": "a06cdd6b8d320b5cfc4595fedd64768a0316176940907af1ca36de5f94564a71",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "NIWO",
+    "source": "https://zenodo.org/records/5914554",
+    "license": "cc-by-4.0",
+    "source_member": "RGB/2018_NIWO_2_450000_4426000_image_crop.tif",
+    "selection": "One fixed-seed sampled archived training RGB tile per site with short side>=1024; native center window. Models are not trained on these data.",
+    "reference_kind": null,
+    "reference_note": "No pixel-level crown contours in this release; box annotations are not used as silhouette truth.",
+    "physical_resolution": {
+      "x": 0.09999999999999072,
+      "y": 0.10000000000004508,
+      "units": "CRS map units / pixel",
+      "crs": "EPSG:32613"
+    }
+  },
+  {
+    "id": "neon_05",
+    "dataset": "neon",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/neon/2019_OSBS_5_405000_3287000_image_crop2.tif",
+    "original_dimensions": [
+      2539,
+      2353
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      245,
+      152,
+      2293,
+      2200
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "00f412f479bc06c9dd7fbb1a4fa0504f0f9223ca67c53578f4259f71e30d1268",
+    "input_sha256": "a6bc376aa65efa7fbb4ea6f4660a2ceb6b4d88ed94ee530d16d4afd9b083c436",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "OSBS",
+    "source": "https://zenodo.org/records/5914554",
+    "license": "cc-by-4.0",
+    "source_member": "RGB/2019_OSBS_5_405000_3287000_image_crop2.tif",
+    "selection": "One fixed-seed sampled archived training RGB tile per site with short side>=1024; native center window. Models are not trained on these data.",
+    "reference_kind": null,
+    "reference_note": "No pixel-level crown contours in this release; box annotations are not used as silhouette truth.",
+    "physical_resolution": {
+      "x": 0.10000000000000916,
+      "y": 0.10000000000011874,
+      "units": "CRS map units / pixel",
+      "crs": "EPSG:32617"
+    }
+  },
+  {
+    "id": "neon_06",
+    "dataset": "neon",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/neon/2019_DELA_5_423000_3601000_image_crop.tif",
+    "original_dimensions": [
+      1331,
+      1331
+    ],
+    "working_dimensions": [
+      1328,
+      1328
+    ],
+    "native_window": [
+      1,
+      1,
+      1329,
+      1329
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "e378ba9a95bd2703d8d7602ffcc085c5a468a6f50a5fd4fccfce0c5418be78fc",
+    "input_sha256": "c4e4fdbbb7bc7a1a721471ebfc401c8e577a444d28b573f2e161207a8b9548df",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "DELA",
+    "source": "https://zenodo.org/records/5914554",
+    "license": "cc-by-4.0",
+    "source_member": "RGB/2019_DELA_5_423000_3601000_image_crop.tif",
+    "selection": "One fixed-seed sampled archived training RGB tile per site with short side>=1024; native center window. Models are not trained on these data.",
+    "reference_kind": null,
+    "reference_note": "No pixel-level crown contours in this release; box annotations are not used as silhouette truth.",
+    "physical_resolution": {
+      "x": 0.10000000000002623,
+      "y": 0.10000000000006998,
+      "units": "CRS map units / pixel",
+      "crs": "EPSG:32616"
+    }
+  },
+  {
+    "id": "neon_07",
+    "dataset": "neon",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/neon/2018_JERC_4_742000_3451000_image_crop.tif",
+    "original_dimensions": [
+      1318,
+      1224
+    ],
+    "working_dimensions": [
+      1312,
+      1216
+    ],
+    "native_window": [
+      3,
+      4,
+      1315,
+      1220
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "6fbf44466d970adcfc00bcfa92011bc740a2bc3ab2389157b2c827ff3ac5ef08",
+    "input_sha256": "fa71994cab8f265fd612db539478eb2d257c5b044d61914673606776d2982212",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "JERC",
+    "source": "https://zenodo.org/records/5914554",
+    "license": "cc-by-4.0",
+    "source_member": "RGB/2018_JERC_4_742000_3451000_image_crop.tif",
+    "selection": "One fixed-seed sampled archived training RGB tile per site with short side>=1024; native center window. Models are not trained on these data.",
+    "reference_kind": null,
+    "reference_note": "No pixel-level crown contours in this release; box annotations are not used as silhouette truth.",
+    "physical_resolution": {
+      "x": 0.099999999999947,
+      "y": 0.09999999999992391,
+      "units": "CRS map units / pixel",
+      "crs": "EPSG:32616"
+    }
+  },
+  {
+    "id": "neon_08",
+    "dataset": "neon",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/neon/2018_SJER_3_258000_4106000_image.tif",
+    "original_dimensions": [
+      10000,
+      10000
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      3976,
+      3976,
+      6024,
+      6024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "03de024aaea1b2a017def6e992b2553e6304b374f1e7f160e3e941e18f595b9d",
+    "input_sha256": "dc39481fcbc0d2aea76d08bf7bd32dddc5575da582ff2da68805aa66248c55eb",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "SJER",
+    "source": "https://zenodo.org/records/5914554",
+    "license": "cc-by-4.0",
+    "source_member": "RGB/2018_SJER_3_258000_4106000_image.tif",
+    "selection": "One fixed-seed sampled archived training RGB tile per site with short side>=1024; native center window. Models are not trained on these data.",
+    "reference_kind": null,
+    "reference_note": "No pixel-level crown contours in this release; box annotations are not used as silhouette truth.",
+    "physical_resolution": {
+      "x": 0.1,
+      "y": 0.1,
+      "units": "CRS map units / pixel",
+      "crs": "EPSG:32611"
+    }
+  },
+  {
+    "id": "neon_09",
+    "dataset": "neon",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/neon/2019_TOOL_3_403000_7617000_image.tif",
+    "original_dimensions": [
+      10000,
+      10000
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      3976,
+      3976,
+      6024,
+      6024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "053b9c12d20fef3b009b2dc8bb64c6c82decdfe691f2b29bcdd26d242f6a240f",
+    "input_sha256": "961496ea039d860dbe2d94551104e470dcc90cfe7a3deddd08288d87bbb723d8",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "TOOL",
+    "source": "https://zenodo.org/records/5914554",
+    "license": "cc-by-4.0",
+    "source_member": "RGB/2019_TOOL_3_403000_7617000_image.tif",
+    "selection": "One fixed-seed sampled archived training RGB tile per site with short side>=1024; native center window. Models are not trained on these data.",
+    "reference_kind": null,
+    "reference_note": "No pixel-level crown contours in this release; box annotations are not used as silhouette truth.",
+    "physical_resolution": {
+      "x": 0.1,
+      "y": 0.1,
+      "units": "CRS map units / pixel",
+      "crs": "EPSG:32606"
+    }
+  },
+  {
+    "id": "neon_10",
+    "dataset": "neon",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/neon/2019_LENO_5_383000_3523000_image_crop.tif",
+    "original_dimensions": [
+      1522,
+      1770
+    ],
+    "working_dimensions": [
+      1520,
+      1760
+    ],
+    "native_window": [
+      1,
+      5,
+      1521,
+      1765
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "903316063964d9cc50c8a813456affdb198e2d022ea57efb159651404d3de86f",
+    "input_sha256": "40f063c94eab0c9d22df812e545ea25116d67554f70fd3af1b4b7673e075bc69",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "LENO",
+    "source": "https://zenodo.org/records/5914554",
+    "license": "cc-by-4.0",
+    "source_member": "RGB/2019_LENO_5_383000_3523000_image_crop.tif",
+    "selection": "One fixed-seed sampled archived training RGB tile per site with short side>=1024; native center window. Models are not trained on these data.",
+    "reference_kind": null,
+    "reference_note": "No pixel-level crown contours in this release; box annotations are not used as silhouette truth.",
+    "physical_resolution": {
+      "x": 0.0999999999999694,
+      "y": 0.1,
+      "units": "CRS map units / pixel",
+      "crs": "EPSG:32616"
+    }
+  },
+  {
+    "id": "coralscapes_01",
+    "dataset": "coralscapes",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/coralscapes/site34_000016_005259_leftImg8bit.png",
+    "original_dimensions": [
+      2048,
+      1024
+    ],
+    "working_dimensions": [
+      2048,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      2048,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "57b1f4069feb618e92d7158439f86cb96924a59f91cfebbb61df683071ccc678",
+    "input_sha256": "57b1f4069feb618e92d7158439f86cb96924a59f91cfebbb61df683071ccc678",
+    "seed": 20261002,
+    "reference_available": true,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not computed: semantic classes mix living organisms, dead skeleton, substrate and unknown classes.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "site34",
+    "source": "https://huggingface.co/datasets/EPFL-ECEO/coralscapes",
+    "license": "Apache-2.0",
+    "source_member": "site34_000016_005259_leftImg8bit.png",
+    "selection": "One fixed-seed random test frame per available site before filling remaining slots uniformly, no model-outcome selection.",
+    "reference_kind": "semantic_benthic",
+    "reference_note": "Published semantic label IDs;0 is ignored for reference scoring.",
+    "physical_resolution": null,
+    "reference_sha256": "93d97e61ac6d4133f01fcf18a020112ff2aea5b6bccc63b1c03345c6d0217378",
+    "reference_ids": [
+      0,
+      6,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      23,
+      33,
+      36
+    ]
+  },
+  {
+    "id": "coralscapes_02",
+    "dataset": "coralscapes",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/coralscapes/site26_000007_019650_leftImg8bit.png",
+    "original_dimensions": [
+      2048,
+      1024
+    ],
+    "working_dimensions": [
+      2048,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      2048,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "71c1babbcc4eb0c51941f3b5e3e28880dd05d22462b3149403424a2ec8fc0f5f",
+    "input_sha256": "71c1babbcc4eb0c51941f3b5e3e28880dd05d22462b3149403424a2ec8fc0f5f",
+    "seed": 20261002,
+    "reference_available": true,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not computed: semantic classes mix living organisms, dead skeleton, substrate and unknown classes.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "site26",
+    "source": "https://huggingface.co/datasets/EPFL-ECEO/coralscapes",
+    "license": "Apache-2.0",
+    "source_member": "site26_000007_019650_leftImg8bit.png",
+    "selection": "One fixed-seed random test frame per available site before filling remaining slots uniformly, no model-outcome selection.",
+    "reference_kind": "semantic_benthic",
+    "reference_note": "Published semantic label IDs;0 is ignored for reference scoring.",
+    "physical_resolution": null,
+    "reference_sha256": "ad37a302450f408a38b477957ba1da03e85a9ac4cb0b13dca7df99f369583dc6",
+    "reference_ids": [
+      0,
+      5,
+      9,
+      10,
+      13,
+      14,
+      15,
+      17,
+      36,
+      37
+    ]
+  },
+  {
+    "id": "coralscapes_03",
+    "dataset": "coralscapes",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/coralscapes/site23_000092_001498_leftImg8bit.png",
+    "original_dimensions": [
+      2048,
+      1024
+    ],
+    "working_dimensions": [
+      2048,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      2048,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "3e3b06d3dffd79e73859c9ee07a5fb6635679e5b44739604537a5c035fc58049",
+    "input_sha256": "3e3b06d3dffd79e73859c9ee07a5fb6635679e5b44739604537a5c035fc58049",
+    "seed": 20261002,
+    "reference_available": true,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not computed: semantic classes mix living organisms, dead skeleton, substrate and unknown classes.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "site23",
+    "source": "https://huggingface.co/datasets/EPFL-ECEO/coralscapes",
+    "license": "Apache-2.0",
+    "source_member": "site23_000092_001498_leftImg8bit.png",
+    "selection": "One fixed-seed random test frame per available site before filling remaining slots uniformly, no model-outcome selection.",
+    "reference_kind": "semantic_benthic",
+    "reference_note": "Published semantic label IDs;0 is ignored for reference scoring.",
+    "physical_resolution": null,
+    "reference_sha256": "e3debe280ddd5e8736664f648874c4d4003ffa6c430f72ab481febf6c5c5a7ef",
+    "reference_ids": [
+      0,
+      5,
+      6,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      20,
+      23,
+      25,
+      31,
+      36
+    ]
+  },
+  {
+    "id": "coralscapes_04",
+    "dataset": "coralscapes",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/coralscapes/site22_000017_003446_leftImg8bit.png",
+    "original_dimensions": [
+      2048,
+      1024
+    ],
+    "working_dimensions": [
+      2048,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      2048,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "53eb9388a47c0c25212bea9aaabf1fef7e79f7e79330c25ac9d951d40dcfdb2b",
+    "input_sha256": "53eb9388a47c0c25212bea9aaabf1fef7e79f7e79330c25ac9d951d40dcfdb2b",
+    "seed": 20261002,
+    "reference_available": true,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not computed: semantic classes mix living organisms, dead skeleton, substrate and unknown classes.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "site22",
+    "source": "https://huggingface.co/datasets/EPFL-ECEO/coralscapes",
+    "license": "Apache-2.0",
+    "source_member": "site22_000017_003446_leftImg8bit.png",
+    "selection": "One fixed-seed random test frame per available site before filling remaining slots uniformly, no model-outcome selection.",
+    "reference_kind": "semantic_benthic",
+    "reference_note": "Published semantic label IDs;0 is ignored for reference scoring.",
+    "physical_resolution": null,
+    "reference_sha256": "a330603530b9c349268193470aa5803a1262091abe0243e6ea6ed11bcd64bd14",
+    "reference_ids": [
+      0,
+      2,
+      3,
+      5,
+      9,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      35
+    ]
+  },
+  {
+    "id": "coralscapes_05",
+    "dataset": "coralscapes",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/coralscapes/site1_000030_004777_leftImg8bit.png",
+    "original_dimensions": [
+      2048,
+      1024
+    ],
+    "working_dimensions": [
+      2048,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      2048,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "319a74e293a488476ff0b7fd288507c62902ea14310483ef3410f1e10cb62723",
+    "input_sha256": "319a74e293a488476ff0b7fd288507c62902ea14310483ef3410f1e10cb62723",
+    "seed": 20261002,
+    "reference_available": true,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not computed: semantic classes mix living organisms, dead skeleton, substrate and unknown classes.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "site1",
+    "source": "https://huggingface.co/datasets/EPFL-ECEO/coralscapes",
+    "license": "Apache-2.0",
+    "source_member": "site1_000030_004777_leftImg8bit.png",
+    "selection": "One fixed-seed random test frame per available site before filling remaining slots uniformly, no model-outcome selection.",
+    "reference_kind": "semantic_benthic",
+    "reference_note": "Published semantic label IDs;0 is ignored for reference scoring.",
+    "physical_resolution": null,
+    "reference_sha256": "633f7b8c4ce0b3d21de01b1710917a4b622d2a60e3e9d5251b62a12f3e11891e",
+    "reference_ids": [
+      0,
+      11,
+      12,
+      13,
+      14,
+      19,
+      28
+    ]
+  },
+  {
+    "id": "coralscapes_06",
+    "dataset": "coralscapes",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/coralscapes/site26_000006_015300_leftImg8bit.png",
+    "original_dimensions": [
+      2048,
+      1024
+    ],
+    "working_dimensions": [
+      2048,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      2048,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "95f83678b462b068a5174a6b74b36d426054198d559406c2a598d3a6ce73c36f",
+    "input_sha256": "95f83678b462b068a5174a6b74b36d426054198d559406c2a598d3a6ce73c36f",
+    "seed": 20261002,
+    "reference_available": true,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not computed: semantic classes mix living organisms, dead skeleton, substrate and unknown classes.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "site26",
+    "source": "https://huggingface.co/datasets/EPFL-ECEO/coralscapes",
+    "license": "Apache-2.0",
+    "source_member": "site26_000006_015300_leftImg8bit.png",
+    "selection": "One fixed-seed random test frame per available site before filling remaining slots uniformly, no model-outcome selection.",
+    "reference_kind": "semantic_benthic",
+    "reference_note": "Published semantic label IDs;0 is ignored for reference scoring.",
+    "physical_resolution": null,
+    "reference_sha256": "69fea68acc85032468c2006d1ae19d728f9999508253195ade1b0fe89709d2fd",
+    "reference_ids": [
+      0,
+      4,
+      5,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      17,
+      20,
+      36
+    ]
+  },
+  {
+    "id": "coralscapes_07",
+    "dataset": "coralscapes",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/coralscapes/site23_000069_008614_leftImg8bit.png",
+    "original_dimensions": [
+      2048,
+      1024
+    ],
+    "working_dimensions": [
+      2048,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      2048,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "e9cdfea9ccf6d882670d445f43e5ea732309bc72e6eab40172b7ae9490990c16",
+    "input_sha256": "e9cdfea9ccf6d882670d445f43e5ea732309bc72e6eab40172b7ae9490990c16",
+    "seed": 20261002,
+    "reference_available": true,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not computed: semantic classes mix living organisms, dead skeleton, substrate and unknown classes.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "site23",
+    "source": "https://huggingface.co/datasets/EPFL-ECEO/coralscapes",
+    "license": "Apache-2.0",
+    "source_member": "site23_000069_008614_leftImg8bit.png",
+    "selection": "One fixed-seed random test frame per available site before filling remaining slots uniformly, no model-outcome selection.",
+    "reference_kind": "semantic_benthic",
+    "reference_note": "Published semantic label IDs;0 is ignored for reference scoring.",
+    "physical_resolution": null,
+    "reference_sha256": "121ff7261570275275e030f5cbad2cb2d6df8e0fb2490078e53f3d01ed534daf",
+    "reference_ids": [
+      0,
+      6,
+      9,
+      10,
+      12,
+      13,
+      14,
+      20,
+      23,
+      24,
+      31,
+      36,
+      37
+    ]
+  },
+  {
+    "id": "coralscapes_08",
+    "dataset": "coralscapes",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/coralscapes/site34_000008_001393_leftImg8bit.png",
+    "original_dimensions": [
+      2048,
+      1024
+    ],
+    "working_dimensions": [
+      2048,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      2048,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "2c0c921a24d064b8e227a4f6210e6909ca8af68cc9a4731f424ffe24d17b9bfc",
+    "input_sha256": "2c0c921a24d064b8e227a4f6210e6909ca8af68cc9a4731f424ffe24d17b9bfc",
+    "seed": 20261002,
+    "reference_available": true,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not computed: semantic classes mix living organisms, dead skeleton, substrate and unknown classes.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "site34",
+    "source": "https://huggingface.co/datasets/EPFL-ECEO/coralscapes",
+    "license": "Apache-2.0",
+    "source_member": "site34_000008_001393_leftImg8bit.png",
+    "selection": "One fixed-seed random test frame per available site before filling remaining slots uniformly, no model-outcome selection.",
+    "reference_kind": "semantic_benthic",
+    "reference_note": "Published semantic label IDs;0 is ignored for reference scoring.",
+    "physical_resolution": null,
+    "reference_sha256": "ae75829df83f8430ab89ac129904de3292b3da536edfb7d4789aed8bf8f251e6",
+    "reference_ids": [
+      0,
+      9,
+      14,
+      16,
+      18,
+      37
+    ]
+  },
+  {
+    "id": "coralscapes_09",
+    "dataset": "coralscapes",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/coralscapes/site23_000058_007950_leftImg8bit.png",
+    "original_dimensions": [
+      2048,
+      1024
+    ],
+    "working_dimensions": [
+      2048,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      2048,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "3a3bd6e7abef0caff507f47e4e64a9be46797c63452834db3260f03911b097ef",
+    "input_sha256": "3a3bd6e7abef0caff507f47e4e64a9be46797c63452834db3260f03911b097ef",
+    "seed": 20261002,
+    "reference_available": true,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not computed: semantic classes mix living organisms, dead skeleton, substrate and unknown classes.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "site23",
+    "source": "https://huggingface.co/datasets/EPFL-ECEO/coralscapes",
+    "license": "Apache-2.0",
+    "source_member": "site23_000058_007950_leftImg8bit.png",
+    "selection": "One fixed-seed random test frame per available site before filling remaining slots uniformly, no model-outcome selection.",
+    "reference_kind": "semantic_benthic",
+    "reference_note": "Published semantic label IDs;0 is ignored for reference scoring.",
+    "physical_resolution": null,
+    "reference_sha256": "eebefb01f4a8ce4d03caa22a4e030c18d8a475fbe574cc86d367f4976c3f927d",
+    "reference_ids": [
+      0,
+      6,
+      9,
+      10,
+      12,
+      13,
+      14,
+      17,
+      20,
+      23,
+      26,
+      31,
+      36,
+      37
+    ]
+  },
+  {
+    "id": "coralscapes_10",
+    "dataset": "coralscapes",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/coralscapes/site22_000073_002134_leftImg8bit.png",
+    "original_dimensions": [
+      2048,
+      1024
+    ],
+    "working_dimensions": [
+      2048,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      2048,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "c91d53dce9f36da1a7a4d98b459dff5791c57b40be8860c6caf2c2460d26cf5e",
+    "input_sha256": "c91d53dce9f36da1a7a4d98b459dff5791c57b40be8860c6caf2c2460d26cf5e",
+    "seed": 20261002,
+    "reference_available": true,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not computed: semantic classes mix living organisms, dead skeleton, substrate and unknown classes.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "site22",
+    "source": "https://huggingface.co/datasets/EPFL-ECEO/coralscapes",
+    "license": "Apache-2.0",
+    "source_member": "site22_000073_002134_leftImg8bit.png",
+    "selection": "One fixed-seed random test frame per available site before filling remaining slots uniformly, no model-outcome selection.",
+    "reference_kind": "semantic_benthic",
+    "reference_note": "Published semantic label IDs;0 is ignored for reference scoring.",
+    "physical_resolution": null,
+    "reference_sha256": "d41c2908488ccda3d7fd987db016881ba39ef93c7efe99f4c35426fc5e7bd2ed",
+    "reference_ids": [
+      0,
+      5,
+      6,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      20,
+      22,
+      23,
+      25,
+      29,
+      31,
+      34,
+      36
+    ]
+  },
+  {
+    "id": "pmid_01",
+    "dataset": "pmid",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/pmid/2.jpg",
+    "original_dimensions": [
+      5440,
+      3648
+    ],
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "native_window": [
+      1696,
+      800,
+      3744,
+      2848
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "350213617abcbe8fec245dc65f9174960408114a3e33b0b87ab38bc5c50b029f",
+    "input_sha256": "00fec43406575b5f583d05d6f94e3028d40b9a92053f189a3df44d52f57b3045",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "ceratium fusus",
+    "source": "https://github.com/ouc-ocean-group/PMID2019",
+    "source_member": "2.jpg",
+    "download_id": "1mJiHw7y2h_Bw0eVrNJBEGxKBdIQBy66v",
+    "license": "Public research download; no explicit license located in repository.",
+    "selection": "Fixed-seed10 from47 image/annotation pairs exposed in the first public Drive listing (50 images); restricted example pool, not a random sample of all10819.",
+    "reference_kind": null,
+    "reference_note": "VOC object boxes retained for object counts; boxes are not segmentation masks.",
+    "annotated_objects": 1,
+    "physical_resolution": null,
+    "annotation_sha256": "7c2ec9d86c0c57e97fa9a4f841e8a4d3f78b43b98b46062a7fb80d28a94c0ec8"
+  },
+  {
+    "id": "pmid_02",
+    "dataset": "pmid",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/pmid/9.jpg",
+    "original_dimensions": [
+      1360,
+      1024
+    ],
+    "working_dimensions": [
+      1360,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      1360,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "d03f7eda551a495730ba79fef3880fbeb08828f2b9b9551c663e1f2bf7d37a82",
+    "input_sha256": "f4c2fa2021bce516585ac287bede14dada33ef8c228ab535ca3b9bb3b893727b",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "helicotheca",
+    "source": "https://github.com/ouc-ocean-group/PMID2019",
+    "source_member": "9.jpg",
+    "download_id": "1gt_gPzCHkoRkaxcYyM4GXmhVH2guXTu3",
+    "license": "Public research download; no explicit license located in repository.",
+    "selection": "Fixed-seed10 from47 image/annotation pairs exposed in the first public Drive listing (50 images); restricted example pool, not a random sample of all10819.",
+    "reference_kind": null,
+    "reference_note": "VOC object boxes retained for object counts; boxes are not segmentation masks.",
+    "annotated_objects": 1,
+    "physical_resolution": null,
+    "annotation_sha256": "9c81236ad78146e7be8261f72f73c71c6f293571f454067b8509f4fddc25580a"
+  },
+  {
+    "id": "pmid_03",
+    "dataset": "pmid",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/pmid/3.jpg",
+    "original_dimensions": [
+      1360,
+      1024
+    ],
+    "working_dimensions": [
+      1360,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      1360,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "ef5c3e48d52bbd3cc36f6a6b922cf77599d1653fa368185b45a50371cdb442a4",
+    "input_sha256": "bacbcc96b3a0c4ea2985c55a88ef9f90a0a5e32546443763c3a45bd2cb877a60",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "guinardia flaccida",
+    "source": "https://github.com/ouc-ocean-group/PMID2019",
+    "source_member": "3.jpg",
+    "download_id": "13NfUSMhdjGmJHtwM-hZruq2yDWO6_3al",
+    "license": "Public research download; no explicit license located in repository.",
+    "selection": "Fixed-seed10 from47 image/annotation pairs exposed in the first public Drive listing (50 images); restricted example pool, not a random sample of all10819.",
+    "reference_kind": null,
+    "reference_note": "VOC object boxes retained for object counts; boxes are not segmentation masks.",
+    "annotated_objects": 1,
+    "physical_resolution": null,
+    "annotation_sha256": "254c0de44665ce576aa7e985106a4be255177efc88643b0ba7756ac53ce37a25"
+  },
+  {
+    "id": "pmid_04",
+    "dataset": "pmid",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/pmid/33.jpg",
+    "original_dimensions": [
+      1360,
+      1024
+    ],
+    "working_dimensions": [
+      1360,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      1360,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "1b0fe61e51e3edc3c7b2dd4fc4e9eeb91cd28dc13f59c1d20c8fb3c66f955ea0",
+    "input_sha256": "d698ff77b9e5929a638351de7f527e4db0e2d20a11eaf633853babe641b47073",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "chaetoceros",
+    "source": "https://github.com/ouc-ocean-group/PMID2019",
+    "source_member": "33.jpg",
+    "download_id": "1sgtBzb_rGa8_uESpHeJDWyKrKDFsacmL",
+    "license": "Public research download; no explicit license located in repository.",
+    "selection": "Fixed-seed10 from47 image/annotation pairs exposed in the first public Drive listing (50 images); restricted example pool, not a random sample of all10819.",
+    "reference_kind": null,
+    "reference_note": "VOC object boxes retained for object counts; boxes are not segmentation masks.",
+    "annotated_objects": 1,
+    "physical_resolution": null,
+    "annotation_sha256": "164b6a0a51448bbce3b5aa980388690ca71d8f8364d70f34863bde94c646b9c1"
+  },
+  {
+    "id": "pmid_05",
+    "dataset": "pmid",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/pmid/30.jpg",
+    "original_dimensions": [
+      1360,
+      1024
+    ],
+    "working_dimensions": [
+      1360,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      1360,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "85752a0deae57c56ad365ce783447fe31f9d87a613b622c11f05f980950ed502",
+    "input_sha256": "fe320575e23f42060fea7a95acf32468a7ad0984b754300e5f21275d9705fee0",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "chaetoceros",
+    "source": "https://github.com/ouc-ocean-group/PMID2019",
+    "source_member": "30.jpg",
+    "download_id": "1YTALiOaK2CCe0S-Vsu-hMqfMiaerwV4V",
+    "license": "Public research download; no explicit license located in repository.",
+    "selection": "Fixed-seed10 from47 image/annotation pairs exposed in the first public Drive listing (50 images); restricted example pool, not a random sample of all10819.",
+    "reference_kind": null,
+    "reference_note": "VOC object boxes retained for object counts; boxes are not segmentation masks.",
+    "annotated_objects": 1,
+    "physical_resolution": null,
+    "annotation_sha256": "adff8a82b63aab49bf0dd58f05788ad3fd8a696d4993da7964827bfa7a63100f"
+  },
+  {
+    "id": "pmid_06",
+    "dataset": "pmid",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/pmid/39.jpg",
+    "original_dimensions": [
+      1360,
+      1024
+    ],
+    "working_dimensions": [
+      1360,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      1360,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "d89a7d43e06013f682037e1615886e4fe91ebf256692215aef955d3d9762cc4c",
+    "input_sha256": "e0cf129adb527507286c94568133225b80be37b61df3d277b435948a4b5f7157",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "thalassionema frauenfeldii",
+    "source": "https://github.com/ouc-ocean-group/PMID2019",
+    "source_member": "39.jpg",
+    "download_id": "1_9smwoU51C-732xGjI1KMjlRs3MYaMl-",
+    "license": "Public research download; no explicit license located in repository.",
+    "selection": "Fixed-seed10 from47 image/annotation pairs exposed in the first public Drive listing (50 images); restricted example pool, not a random sample of all10819.",
+    "reference_kind": null,
+    "reference_note": "VOC object boxes retained for object counts; boxes are not segmentation masks.",
+    "annotated_objects": 1,
+    "physical_resolution": null,
+    "annotation_sha256": "28a4fc168e968478b1b46df6d54d60376cf1981af1a7cc0be3c910169a4840f5"
+  },
+  {
+    "id": "pmid_07",
+    "dataset": "pmid",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/pmid/22.jpg",
+    "original_dimensions": [
+      1360,
+      1024
+    ],
+    "working_dimensions": [
+      1360,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      1360,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "1b32e7613c44daf0ba043b1572cb4cb49d13fbb15a1ee4c63db712b59b22db78",
+    "input_sha256": "f6c48fcdd67f4446df62eab72bb7a694ce8f120e5f85ac553e121f71a5ee9279",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "chaetoceros, skeletonema",
+    "source": "https://github.com/ouc-ocean-group/PMID2019",
+    "source_member": "22.jpg",
+    "download_id": "1cJEBwhE0bo73rcLCJ9HjRzZZ0TjRwYdm",
+    "license": "Public research download; no explicit license located in repository.",
+    "selection": "Fixed-seed10 from47 image/annotation pairs exposed in the first public Drive listing (50 images); restricted example pool, not a random sample of all10819.",
+    "reference_kind": null,
+    "reference_note": "VOC object boxes retained for object counts; boxes are not segmentation masks.",
+    "annotated_objects": 2,
+    "physical_resolution": null,
+    "annotation_sha256": "8e95c397ca4411a52fd380b539577b7b65173ee5847c78b6b3b0c179c972d78b"
+  },
+  {
+    "id": "pmid_08",
+    "dataset": "pmid",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/pmid/14.jpg",
+    "original_dimensions": [
+      1360,
+      1024
+    ],
+    "working_dimensions": [
+      1360,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      1360,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "678d69a8407c023e6e30a96558edaefdea06832f548b4aad850d70b6df3946cb",
+    "input_sha256": "dae32a61d7c4fd2eb896510baa0941f261f7de0a694f78113f07697b19ca6a1f",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "pleurosigma pelagicum",
+    "source": "https://github.com/ouc-ocean-group/PMID2019",
+    "source_member": "14.jpg",
+    "download_id": "1BCyXO6E6B40l16UWgTrMqNntvD3KAq1k",
+    "license": "Public research download; no explicit license located in repository.",
+    "selection": "Fixed-seed10 from47 image/annotation pairs exposed in the first public Drive listing (50 images); restricted example pool, not a random sample of all10819.",
+    "reference_kind": null,
+    "reference_note": "VOC object boxes retained for object counts; boxes are not segmentation masks.",
+    "annotated_objects": 1,
+    "physical_resolution": null,
+    "annotation_sha256": "9d6af8dfeded41e9c076590355727c6bffc4f56a45d0f1e0d5c12645e00c3003"
+  },
+  {
+    "id": "pmid_09",
+    "dataset": "pmid",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/pmid/20.jpg",
+    "original_dimensions": [
+      1360,
+      1024
+    ],
+    "working_dimensions": [
+      1360,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      1360,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "4dd247fd6616c62dbfe410c9411120aa6b42c1b2aeb98b04d412b317fc6ba755",
+    "input_sha256": "06176efccbd36a90f94ae8d376c6b3795345ff9dd5846368d281a7c017df92f1",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "chaetoceros",
+    "source": "https://github.com/ouc-ocean-group/PMID2019",
+    "source_member": "20.jpg",
+    "download_id": "1lS9x4xLkEwIftP1hOma05gLgm4hosn8N",
+    "license": "Public research download; no explicit license located in repository.",
+    "selection": "Fixed-seed10 from47 image/annotation pairs exposed in the first public Drive listing (50 images); restricted example pool, not a random sample of all10819.",
+    "reference_kind": null,
+    "reference_note": "VOC object boxes retained for object counts; boxes are not segmentation masks.",
+    "annotated_objects": 1,
+    "physical_resolution": null,
+    "annotation_sha256": "499068edd69347b85f046ba165d908604dce83457902ab4320a020aea8cfa119"
+  },
+  {
+    "id": "pmid_10",
+    "dataset": "pmid",
+    "original_path": "/home/masahiro/kics-zert2/runs/eco_collection75_v1/originals/pmid/11.jpg",
+    "original_dimensions": [
+      1360,
+      1024
+    ],
+    "working_dimensions": [
+      1360,
+      1024
+    ],
+    "native_window": [
+      0,
+      0,
+      1360,
+      1024
+    ],
+    "resize_ratio": 1,
+    "source_sha256": "c32d528c09b2ed131a577879f44cd76db3183d501a002d71e8390bb4028163da",
+    "input_sha256": "788cd7f5eb7f08e5e25956fb90a2b36df9ad378c6e0a1227fd7f1d4ff47492c9",
+    "seed": 20261002,
+    "reference_available": false,
+    "biological_occupancy": null,
+    "occupancy_basis": "Not measured: no eligible pixel-level reference.",
+    "smallest_resolved_structure": "Not measured; image dimensions do not establish optical resolution.",
+    "stratum": "skeletonema",
+    "source": "https://github.com/ouc-ocean-group/PMID2019",
+    "source_member": "11.jpg",
+    "download_id": "1rPBZxaTiZceYHpXT-q1z3BTQXgo24I-7",
+    "license": "Public research download; no explicit license located in repository.",
+    "selection": "Fixed-seed10 from47 image/annotation pairs exposed in the first public Drive listing (50 images); restricted example pool, not a random sample of all10819.",
+    "reference_kind": null,
+    "reference_note": "VOC object boxes retained for object counts; boxes are not segmentation masks.",
+    "annotated_objects": 1,
+    "physical_resolution": null,
+    "annotation_sha256": "c44e50a5b211add9c807069942f0a2c3da3acf14e4004ea00f4171535e5c2a1b"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "checked_utc_date": "2026-10-06",
+  "datasets": [
+    {
+      "dataset": "fungal_network",
+      "source": "https://zenodo.org/api/records/5725751",
+      "title": "Fungal Network Analysis - Dataset",
+      "creators": [
+        {
+          "name": "Mark Fricker",
+          "affiliation": "University of Oxford"
+        },
+        {
+          "name": "Carlos Aguilar-Trigueros",
+          "affiliation": "Freie Universität Berlin"
+        },
+        {
+          "name": "Lynne Boddy",
+          "affiliation": "University of Cardiff"
+        },
+        {
+          "name": "Matthias Rillig",
+          "affiliation": "Freie Universität Berlin"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "doi": "10.5281/zenodo.5725751",
+      "publication_date": "2021-11-24"
+    },
+    {
+      "dataset": "neon",
+      "source": "https://zenodo.org/api/records/5914554",
+      "title": "Data for the NeonTreeEvaluation Benchmark",
+      "creators": [
+        {
+          "name": "Ben Weinstein",
+          "affiliation": "University of Florida",
+          "orcid": "0000-0002-2176-7935"
+        },
+        {
+          "name": "Sergio Marconi",
+          "affiliation": "University of Florida"
+        },
+        {
+          "name": "Ethan White",
+          "affiliation": "University of Florida"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "doi": "10.5281/zenodo.5914554",
+      "publication_date": "2022-01-27"
+    },
+    {
+      "dataset": "coralscapes",
+      "source": "https://huggingface.co/datasets/EPFL-ECEO/coralscapes",
+      "card_license": "apache-2.0",
+      "upstream_notice_files": []
+    }
+  ]
+}

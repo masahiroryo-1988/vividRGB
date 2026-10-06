@@ -1,0 +1,124 @@
+{
+  "complete": true,
+  "orthogonal_projection_reconstruction": true,
+  "real_image_rotation_checks": [
+    {
+      "image": "moin_01",
+      "dim": 3,
+      "kmeans_ari": 1.0,
+      "relative_inertia_error": 3.480875447775062e-15,
+      "full_gmm_max_log_density_error": 1.0658141036401503e-14
+    },
+    {
+      "image": "moin_01",
+      "dim": 16,
+      "kmeans_ari": 1.0,
+      "relative_inertia_error": 0.0,
+      "full_gmm_max_log_density_error": 3.055333763768431e-13
+    },
+    {
+      "image": "fungal_network_01",
+      "dim": 3,
+      "kmeans_ari": 1.0,
+      "relative_inertia_error": 1.8534453088567814e-15,
+      "full_gmm_max_log_density_error": 2.1316282072803006e-14
+    },
+    {
+      "image": "fungal_network_01",
+      "dim": 16,
+      "kmeans_ari": 1.0,
+      "relative_inertia_error": 1.303566345223022e-15,
+      "full_gmm_max_log_density_error": 5.719869022868806e-13
+    },
+    {
+      "image": "neon_01",
+      "dim": 3,
+      "kmeans_ari": 1.0,
+      "relative_inertia_error": 3.2222192789003895e-16,
+      "full_gmm_max_log_density_error": 7.105427357601002e-15
+    },
+    {
+      "image": "neon_01",
+      "dim": 16,
+      "kmeans_ari": 1.0,
+      "relative_inertia_error": 4.919905198090606e-16,
+      "full_gmm_max_log_density_error": 5.115907697472721e-13
+    },
+    {
+      "image": "coralscapes_01",
+      "dim": 3,
+      "kmeans_ari": 1.0,
+      "relative_inertia_error": 2.6602854664872447e-15,
+      "full_gmm_max_log_density_error": 2.6645352591003757e-14
+    },
+    {
+      "image": "coralscapes_01",
+      "dim": 16,
+      "kmeans_ari": 1.0,
+      "relative_inertia_error": 0.0,
+      "full_gmm_max_log_density_error": 1.8474111129762605e-13
+    },
+    {
+      "image": "pmid_01",
+      "dim": 3,
+      "kmeans_ari": 1.0,
+      "relative_inertia_error": 3.0976286214133386e-15,
+      "full_gmm_max_log_density_error": 5.551115123125783e-14
+    },
+    {
+      "image": "pmid_01",
+      "dim": 16,
+      "kmeans_ari": 1.0,
+      "relative_inertia_error": 1.0794208973809531e-15,
+      "full_gmm_max_log_density_error": 9.094947017729282e-13
+    }
+  ],
+  "independent_bayesian_rotation_checks": [
+    {
+      "image": "moin_01",
+      "dim": 16,
+      "original_k": 12,
+      "varimax_k": 12,
+      "ari": 1.0,
+      "lower_bound_difference": 5.820766091346741e-11,
+      "both_converged": true
+    },
+    {
+      "image": "fungal_network_01",
+      "dim": 16,
+      "original_k": 12,
+      "varimax_k": 12,
+      "ari": 1.0,
+      "lower_bound_difference": 4.3655745685100555e-11,
+      "both_converged": true
+    },
+    {
+      "image": "neon_01",
+      "dim": 16,
+      "original_k": 12,
+      "varimax_k": 12,
+      "ari": 1.0,
+      "lower_bound_difference": 2.9103830456733704e-11,
+      "both_converged": true
+    },
+    {
+      "image": "coralscapes_01",
+      "dim": 16,
+      "original_k": 12,
+      "varimax_k": 12,
+      "ari": 1.0,
+      "lower_bound_difference": 8.003553375601768e-11,
+      "both_converged": true
+    },
+    {
+      "image": "pmid_01",
+      "dim": 16,
+      "original_k": 12,
+      "varimax_k": 12,
+      "ari": 1.0,
+      "lower_bound_difference": 4.3655745685100555e-11,
+      "both_converged": true
+    }
+  ],
+  "seconds": 47.03842222108506
+}

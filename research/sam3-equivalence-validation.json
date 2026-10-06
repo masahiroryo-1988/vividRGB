@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "image": "moin_01",
+  "mask_count": 27,
+  "partition_exactly_equal": true,
+  "scores_exactly_equal": true,
+  "shape": [
+    2048,
+    2048
+  ],
+  "torch": "2.8.0+cu128",
+  "transformers": "5.18.0",
+  "user_supplied_prompts": [],
+  "scope": "One-image image-only SAM3 adapter equivalence; not a renewed benchmark"
+}

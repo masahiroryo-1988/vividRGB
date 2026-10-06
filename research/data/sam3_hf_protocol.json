@@ -1,0 +1,61 @@
+{
+  "implementation": "Hugging Face Transformers MaskGenerationPipeline with Sam3TrackerModel",
+  "transformers": "5.18.0",
+  "torch": "2.8.0+cu128",
+  "python": "3.12.3",
+  "model": "facebook/sam3",
+  "revision": "3c879f39826c281e95690f02c7821c4de09afae7",
+  "model_class": "Sam3TrackerModel",
+  "image_processor": {
+    "data_format": "channels_first",
+    "do_convert_rgb": true,
+    "do_normalize": true,
+    "do_rescale": true,
+    "do_resize": true,
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_processor_type": "Sam3ImageProcessor",
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "mask_size": {
+      "height": 288,
+      "width": 288
+    },
+    "resample": 2,
+    "rescale_factor": 0.00392156862745098,
+    "size": {
+      "height": 1008,
+      "width": 1008
+    }
+  },
+  "code_sha256": "c30e5fa225d03d24472985998a8a15f8b4e8cdd85f61e5484c4ffb1bd6441aa4",
+  "call": "generator(image, points_per_batch=4, output_bboxes_mask=True)",
+  "user_supplied_prompts": [],
+  "automatic_sampling": "Pipeline generates its own default32x32 point grid; no text, manually selected points, boxes, masks, labels or domain-specific object requests are supplied. This is image-only automatic mask generation, not a model with no internal point prompts.",
+  "parameters": {
+    "points_per_batch": 4,
+    "points_per_crop": 32,
+    "crops_n_layers": 0,
+    "pred_iou_thresh": 0.88,
+    "stability_score_thresh": 0.95,
+    "mask_threshold": 0,
+    "stability_score_offset": 1,
+    "crops_nms_thresh": 0.7
+  },
+  "precision": "FP32 model/input tensors; matmul TF32 disabled; cuDNN TF32 retains framework default (true). BF16 was rejected in the smoke test because NMS received mismatched box/score dtypes; failed smoke results are excluded.",
+  "cost": "Model load and one complete image-only pipeline warmup excluded. Timed stage covers the unmodified HF pipeline, including filtering/NMS and conversion to returned masks. GPU board energy sampled every200ms. Partition assembly, scoring, rendering and disk writes excluded and timed separately. Pipeline wrapper and precision differ from the historical custom-grid comparator.",
+  "overlap": "Highest predicted IoU wins primary; smaller-mask-first sensitivity. Background is label0. Both partitions use the same accepted automatic masks.",
+  "previous_comparator": "Original custom-grid sam3_metrics.json and sam3_* outputs remain untouched; the current report uses sam3_hf_metrics.json.",
+  "backend_flags": {
+    "environment": "/home/masahiro/kics-zert2/.venv-eco-vlm",
+    "matmul_allow_tf32": false,
+    "cudnn_allow_tf32": true,
+    "note": "The executed scripts disable matmul TF32 only; cuDNN retains its framework default. Model/input FP32 does not imply all convolution kernels exclude TF32."
+  }
+}

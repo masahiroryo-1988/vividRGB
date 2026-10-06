@@ -1,0 +1,300 @@
+{
+  "complete": true,
+  "images": 50,
+  "rgb_f1_recalculations": 200,
+  "annotated_f1_recalculations": 40,
+  "mean_sd_checks": 20,
+  "paired_tests_and_holm_checks": 20,
+  "figure7": {
+    "image_method_coordinates": 200,
+    "efficiency_coordinates": 150,
+    "missing_dinov3_energy_fields": 50,
+    "mean_sd_checks": 84,
+    "all_observations_within_plot_limits": true
+  },
+  "source_sha256": "92e118e74a8eaf0d253122a3aab4728ec2984d94a0210b618489f4a8ca052aa0",
+  "summaries": [
+    {
+      "dataset": "moin",
+      "method": "whole",
+      "mean": 0.0610436264096801,
+      "sd": 0.02606464087243846
+    },
+    {
+      "dataset": "moin",
+      "method": "sam3",
+      "mean": 0.02023451650834254,
+      "sd": 0.015701529299251785
+    },
+    {
+      "dataset": "moin",
+      "method": "s05",
+      "mean": 0.5956753352704712,
+      "sd": 0.10626377259733716
+    },
+    {
+      "dataset": "moin",
+      "method": "s10",
+      "mean": 0.4414449403773494,
+      "sd": 0.08262872857592182
+    },
+    {
+      "dataset": "fungal_network",
+      "method": "whole",
+      "mean": 0.07625523151460245,
+      "sd": 0.057430314971912456
+    },
+    {
+      "dataset": "fungal_network",
+      "method": "sam3",
+      "mean": 0.03350922467311785,
+      "sd": 0.02716833569115167
+    },
+    {
+      "dataset": "fungal_network",
+      "method": "s05",
+      "mean": 0.29015282699332084,
+      "sd": 0.10775473782156252
+    },
+    {
+      "dataset": "fungal_network",
+      "method": "s10",
+      "mean": 0.24364695723118274,
+      "sd": 0.09303509731797634
+    },
+    {
+      "dataset": "neon",
+      "method": "whole",
+      "mean": 0.03360191510580875,
+      "sd": 0.010911652324640654
+    },
+    {
+      "dataset": "neon",
+      "method": "sam3",
+      "mean": 0.040634268380721976,
+      "sd": 0.04445752919187413
+    },
+    {
+      "dataset": "neon",
+      "method": "s05",
+      "mean": 0.5492423518488275,
+      "sd": 0.13567393842789238
+    },
+    {
+      "dataset": "neon",
+      "method": "s10",
+      "mean": 0.35982512016680956,
+      "sd": 0.13457562702246711
+    },
+    {
+      "dataset": "coralscapes",
+      "method": "whole",
+      "mean": 0.04099941675087438,
+      "sd": 0.009724220016379712
+    },
+    {
+      "dataset": "coralscapes",
+      "method": "sam3",
+      "mean": 0.03614715239647749,
+      "sd": 0.023780088030356313
+    },
+    {
+      "dataset": "coralscapes",
+      "method": "s05",
+      "mean": 0.43618629140653525,
+      "sd": 0.1363145862227491
+    },
+    {
+      "dataset": "coralscapes",
+      "method": "s10",
+      "mean": 0.26594125540804014,
+      "sd": 0.07435986304707257
+    },
+    {
+      "dataset": "pmid",
+      "method": "whole",
+      "mean": 0.028068520475573854,
+      "sd": 0.0073911995894940085
+    },
+    {
+      "dataset": "pmid",
+      "method": "sam3",
+      "mean": 0.0903737389148302,
+      "sd": 0.031691730347725676
+    },
+    {
+      "dataset": "pmid",
+      "method": "s05",
+      "mean": 0.4555654211073564,
+      "sd": 0.11847755518021147
+    },
+    {
+      "dataset": "pmid",
+      "method": "s10",
+      "mean": 0.28821301820223283,
+      "sd": 0.13816206494399677
+    }
+  ],
+  "contrasts": [
+    {
+      "dataset": "moin",
+      "focus": "s05",
+      "baseline": "whole",
+      "mean_delta": 0.5346317088607911,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "moin",
+      "focus": "s05",
+      "baseline": "sam3",
+      "mean_delta": 0.5754408187621287,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "moin",
+      "focus": "s10",
+      "baseline": "whole",
+      "mean_delta": 0.3804013139676693,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "moin",
+      "focus": "s10",
+      "baseline": "sam3",
+      "mean_delta": 0.42121042386900687,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "fungal_network",
+      "focus": "s05",
+      "baseline": "whole",
+      "mean_delta": 0.21389759547871842,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "fungal_network",
+      "focus": "s05",
+      "baseline": "sam3",
+      "mean_delta": 0.25664360232020306,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "fungal_network",
+      "focus": "s10",
+      "baseline": "whole",
+      "mean_delta": 0.1673917257165803,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "fungal_network",
+      "focus": "s10",
+      "baseline": "sam3",
+      "mean_delta": 0.2101377325580649,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "neon",
+      "focus": "s05",
+      "baseline": "whole",
+      "mean_delta": 0.5156404367430187,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "neon",
+      "focus": "s05",
+      "baseline": "sam3",
+      "mean_delta": 0.5086080834681053,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "neon",
+      "focus": "s10",
+      "baseline": "whole",
+      "mean_delta": 0.3262232050610009,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "neon",
+      "focus": "s10",
+      "baseline": "sam3",
+      "mean_delta": 0.3191908517860877,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "coralscapes",
+      "focus": "s05",
+      "baseline": "whole",
+      "mean_delta": 0.39518687465566077,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "coralscapes",
+      "focus": "s05",
+      "baseline": "sam3",
+      "mean_delta": 0.4000391390100577,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "coralscapes",
+      "focus": "s10",
+      "baseline": "whole",
+      "mean_delta": 0.22494183865716572,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "coralscapes",
+      "focus": "s10",
+      "baseline": "sam3",
+      "mean_delta": 0.22979410301156267,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "pmid",
+      "focus": "s05",
+      "baseline": "whole",
+      "mean_delta": 0.4274969006317826,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "pmid",
+      "focus": "s05",
+      "baseline": "sam3",
+      "mean_delta": 0.36519168219252623,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "pmid",
+      "focus": "s10",
+      "baseline": "whole",
+      "mean_delta": 0.260144497726659,
+      "raw_p": 0.001953125,
+      "holm_p": 0.0390625
+    },
+    {
+      "dataset": "pmid",
+      "focus": "s10",
+      "baseline": "sam3",
+      "mean_delta": 0.19783927928740258,
+      "raw_p": 0.00390625,
+      "holm_p": 0.0390625
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "image": "moin_01",
+  "max_absolute_errors": {
+    "basis": 0.0,
+    "mean": 0.0,
+    "low": 0.0,
+    "high": 0.0
+  },
+  "retained_components": 16,
+  "tokens_per_treatment": 2048,
+  "sampling_seed": 44,
+  "pca_seed": 42,
+  "scope": "One-image balanced PCA calibration equivalence; not a renewed benchmark"
+}

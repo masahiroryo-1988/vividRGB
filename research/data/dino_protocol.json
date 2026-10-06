@@ -1,0 +1,20 @@
+{
+  "code_sha256": "328df536c00a34d6f72a8b21e3a22fb041b756c03dd1d77133d31c32e1381cf0",
+  "dino": "facebook/dinov3-vitb16-pretrain-lvd1689m",
+  "dino_revision": "5931719e67bbdb9737e363e781fb0c67687896bc",
+  "methods": [
+    "whole",
+    "whole_fourflip",
+    "s05",
+    "s10",
+    "s20",
+    "s40"
+  ],
+  "local": "5/10/20/40% of working short side, rounded; bicubic384; four inverse-aligned flip vectors averaged; stride round(crop/4), approximately75% overlap; separable Hann floor.05 and normalize coverage; bilinear token upsampling. No AnyUp or multiscale merging. No explicit L2 vector normalization.",
+  "pca": "PCA16 per image; balanced2048tokens per six treatments; no labels; sharedbasis and1/99 percentile RGB displaylimits. Independent KMeans K6 primary/K12 sensitivity,8192 same coordinates,n_init10,seed42.",
+  "evaluation": "Reference boundaryF1 Manhattan2pixels primary/5sensitivity andARI shared100000pixels. Coral0ignored with2pixel erosion; otherreferencebackground included. RGBedgeF1 top15% grayscale gradients only appearanceproxy. No box-as-mask truth.",
+  "cost": "Single run, model-load/warmup excluded; separate extraction timings; GPUboardenergy estimated trapezoidal integration of nvidia-smi power.draw sampled200ms. SharedPCA calibration and clustering cost reported separately. Whole timing includes cached whole encoding. Not wall-plug or carbon measurement.",
+  "historical_custom_sam3_grid": "Pinned3c879f39826c281e95690f02c7821c4de09afae7; SAM3 interactive instance head; automatic32x32uniform points,batch4,multimask3,predIoU>.8,stability>=.95 at logits+/-1,threshold0,boxNMS.7,crop_layers0,no text/manual points,no hole/sprinkle postprocessing. Primary highest predictedIoU wins; smaller-mask-first overlap sensitivity.",
+  "current_sam3_comparator": "See sam3_hf_protocol.json. Historical custom-grid outputs are excluded from the current scores.",
+  "dino_precision": "FP16 autocast; matmul TF32 disabled; cuDNN TF32 retains framework default (true). PCA and reconstruction use float32."
+}

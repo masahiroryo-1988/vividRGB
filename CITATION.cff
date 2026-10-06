@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this software when using vividRGB. The accompanying manuscript is a draft and has no arXiv identifier yet."
+type: software
+title: "vividRGB: discovering dense visual cues with forced focused attention"
+authors:
+  - family-names: Ryo
+    given-names: Masahiro
+version: 0.1.0
+date-released: '2026-10-06'
+license: MIT
+repository-code: 'https://github.com/masahiroryo/vividRGB'
+url: 'https://kics-zert.projectcove.org/'
+

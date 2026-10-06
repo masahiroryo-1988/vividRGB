@@ -1,0 +1,82 @@
+{
+  "complete": true,
+  "image": "moin_01",
+  "method": "s10",
+  "working_dimensions": [
+    2048,
+    2048
+  ],
+  "grid_shape": [
+    256,
+    256,
+    16
+  ],
+  "max_absolute_error": 0.0,
+  "rms_error": 0.0,
+  "relative_tolerance": 0.0001,
+  "absolute_tolerance": 0.0001,
+  "source_input_sha256": "7f99a7a1e76cb34321507dbbab03306a60e18d9f8f936e22197a57d1e656c046",
+  "torch": "2.8.0+cu128",
+  "encoder": {
+    "model": "facebook/dinov3-vitb16-pretrain-lvd1689m",
+    "revision": "5931719e67bbdb9737e363e781fb0c67687896bc",
+    "device": "cuda",
+    "patch_size": 16,
+    "feature_normalization": "raw tokens; no extra L2",
+    "precision": "FP16 CUDA autocast",
+    "rgb_scale": 255,
+    "rgb_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "rgb_std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "extraction": {
+    "method": "local",
+    "focus": 0.1,
+    "crop_size": 384,
+    "overlap": 0.75,
+    "four_flips": true,
+    "batch_size": 12,
+    "hann_floor": 0.05,
+    "tiles": 1444,
+    "crop_pixels": 205,
+    "stride_pixels": 51,
+    "actual_overlap": 0.751219512195122,
+    "extraction_seconds": 84.31038613896817,
+    "working_dimensions": [
+      2048,
+      2048
+    ],
+    "retained_dimensions": 16,
+    "interpolation_backend": "torch",
+    "explicit_l2_normalization": false,
+    "pca_whitening": false,
+    "calibration_timed": false,
+    "encoder": {
+      "model": "facebook/dinov3-vitb16-pretrain-lvd1689m",
+      "revision": "5931719e67bbdb9737e363e781fb0c67687896bc",
+      "device": "cuda",
+      "patch_size": 16,
+      "feature_normalization": "raw tokens; no extra L2",
+      "precision": "FP16 CUDA autocast",
+      "rgb_scale": 255,
+      "rgb_mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "rgb_std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  "scope": "One frozen MOIN image; implementation equivalence, not ecological accuracy or a renewed benchmark"
+}

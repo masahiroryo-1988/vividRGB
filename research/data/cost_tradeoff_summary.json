@@ -1,0 +1,511 @@
+{
+  "source_sha256": "92e118e74a8eaf0d253122a3aab4728ec2984d94a0210b618489f4a8ca052aa0",
+  "endpoint": "Strong-RGB-edge boundary F1; appearance proxy, not biological accuracy",
+  "cost_scope": "Saved extraction-stage timings and GPU-board estimates; stages differ by implementation",
+  "mean_efficiency": "Mean of per-image 1/J, not 1/mean(J)",
+  "missing_energy": {
+    "method": "whole",
+    "images": 50,
+    "reason": "Full extraction-stage energy unavailable; cached encoding energy is not substituted"
+  },
+  "overall": {
+    "whole": {
+      "rgb_edge_f1": {
+        "n": 50,
+        "mean": 0.04799374205130791,
+        "sd": 0.03332997031670729
+      },
+      "extraction_seconds": {
+        "n": 50,
+        "mean": 0.3804837810294703,
+        "sd": 0.18792812572589862
+      },
+      "gpu_board_joules": null,
+      "gpu_board_efficiency_inverse_joules": null
+    },
+    "sam3": {
+      "rgb_edge_f1": {
+        "n": 50,
+        "mean": 0.044179780174698015,
+        "sd": 0.03773186837590418
+      },
+      "extraction_seconds": {
+        "n": 50,
+        "mean": 5.019342857836746,
+        "sd": 0.3062076127824469
+      },
+      "gpu_board_joules": {
+        "n": 50,
+        "mean": 323.2778262360102,
+        "sd": 18.803992686474235
+      },
+      "gpu_board_efficiency_inverse_joules": {
+        "n": 50,
+        "mean": 0.003103625003386548,
+        "sd": 0.0001814883803740798
+      }
+    },
+    "s05": {
+      "rgb_edge_f1": {
+        "n": 50,
+        "mean": 0.4653644453253022,
+        "sd": 0.1579195785656651
+      },
+      "extraction_seconds": {
+        "n": 50,
+        "mean": 201.73412516189273,
+        "sd": 62.04373979814783
+      },
+      "gpu_board_joules": {
+        "n": 50,
+        "mean": 13433.863104973922,
+        "sd": 4174.348247109867
+      },
+      "gpu_board_efficiency_inverse_joules": {
+        "n": 50,
+        "mean": 8.01955823970413e-05,
+        "sd": 1.922550115348895e-05
+      }
+    },
+    "s10": {
+      "rgb_edge_f1": {
+        "n": 50,
+        "mean": 0.31981425827712295,
+        "sd": 0.1265619887602841
+      },
+      "extraction_seconds": {
+        "n": 50,
+        "mean": 49.939659113138916,
+        "sd": 14.022347881437081
+      },
+      "gpu_board_joules": {
+        "n": 50,
+        "mean": 3287.8668039681597,
+        "sd": 953.1421355776364
+      },
+      "gpu_board_efficiency_inverse_joules": {
+        "n": 50,
+        "mean": 0.0003242118617492347,
+        "sd": 7.150388490567425e-05
+      }
+    }
+  },
+  "domains": {
+    "moin": {
+      "whole": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.0610436264096801,
+          "sd": 0.02606464087243846
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 0.549749357928522,
+          "sd": 0.003116478993320247
+        },
+        "gpu_board_joules": null,
+        "gpu_board_efficiency_inverse_joules": null
+      },
+      "sam3": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.02023451650834254,
+          "sd": 0.015701529299251785
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 5.164928626082838,
+          "sd": 0.024542924706158344
+        },
+        "gpu_board_joules": {
+          "n": 10,
+          "mean": 328.16335318340117,
+          "sd": 5.703702969069303
+        },
+        "gpu_board_efficiency_inverse_joules": {
+          "n": 10,
+          "mean": 0.003048079639798598,
+          "sd": 5.222843906822319e-05
+        }
+      },
+      "s05": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.5956753352704712,
+          "sd": 0.10626377259733716
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 157.22533810921013,
+          "sd": 0.4789434662173371
+        },
+        "gpu_board_joules": {
+          "n": 10,
+          "mean": 10435.260769420267,
+          "sd": 45.19767818941401
+        },
+        "gpu_board_efficiency_inverse_joules": {
+          "n": 10,
+          "mean": 9.583056159186936e-05,
+          "sd": 4.1545826830609776e-07
+        }
+      },
+      "s10": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.4414449403773494,
+          "sd": 0.08262872857592182
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 40.575429519847965,
+          "sd": 0.15576178688124367
+        },
+        "gpu_board_joules": {
+          "n": 10,
+          "mean": 2642.181009439658,
+          "sd": 7.2206137282907115
+        },
+        "gpu_board_efficiency_inverse_joules": {
+          "n": 10,
+          "mean": 0.0003784777484124991,
+          "sd": 1.0339808082758227e-06
+        }
+      }
+    },
+    "fungal_network": {
+      "whole": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.07625523151460245,
+          "sd": 0.057430314971912456
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 0.5585436143912375,
+          "sd": 0.00379896018042624
+        },
+        "gpu_board_joules": null,
+        "gpu_board_efficiency_inverse_joules": null
+      },
+      "sam3": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.03350922467311785,
+          "sd": 0.02716833569115167
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 5.26618173266761,
+          "sd": 0.02702286358182312
+        },
+        "gpu_board_joules": {
+          "n": 10,
+          "mean": 335.35161675637664,
+          "sd": 2.5665704563633205
+        },
+        "gpu_board_efficiency_inverse_joules": {
+          "n": 10,
+          "mean": 0.0029821021435310685,
+          "sd": 2.28481166047478e-05
+        }
+      },
+      "s05": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.29015282699332084,
+          "sd": 0.10775473782156252
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 157.12462572176008,
+          "sd": 0.7043365685676924
+        },
+        "gpu_board_joules": {
+          "n": 10,
+          "mean": 10419.719963666026,
+          "sd": 38.76082100379657
+        },
+        "gpu_board_efficiency_inverse_joules": {
+          "n": 10,
+          "mean": 9.597307125139768e-05,
+          "sd": 3.5908487400437525e-07
+        }
+      },
+      "s10": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.24364695723118274,
+          "sd": 0.09303509731797634
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 40.54414474221412,
+          "sd": 0.18134771388124485
+        },
+        "gpu_board_joules": {
+          "n": 10,
+          "mean": 2640.37888558842,
+          "sd": 14.623159548703894
+        },
+        "gpu_board_efficiency_inverse_joules": {
+          "n": 10,
+          "mean": 0.00037874390054497997,
+          "sd": 2.081818760933814e-06
+        }
+      }
+    },
+    "neon": {
+      "whole": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.03360191510580875,
+          "sd": 0.010911652324640654
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 0.39615880474448206,
+          "sd": 0.17582563387734598
+        },
+        "gpu_board_joules": null,
+        "gpu_board_efficiency_inverse_joules": null
+      },
+      "sam3": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.040634268380721976,
+          "sd": 0.04445752919187413
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 4.963359606382437,
+          "sd": 0.34531217097499517
+        },
+        "gpu_board_joules": {
+          "n": 10,
+          "mean": 318.8953419721358,
+          "sd": 24.960404226315802
+        },
+        "gpu_board_efficiency_inverse_joules": {
+          "n": 10,
+          "mean": 0.0031534319209186278,
+          "sd": 0.0002501664499238258
+        }
+      },
+      "s05": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.5492423518488275,
+          "sd": 0.13567393842789238
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 173.2729677164927,
+          "sd": 19.34841704328386
+        },
+        "gpu_board_joules": {
+          "n": 10,
+          "mean": 11505.052450043757,
+          "sd": 1254.1611643724038
+        },
+        "gpu_board_efficiency_inverse_joules": {
+          "n": 10,
+          "mean": 8.779476420160516e-05,
+          "sd": 8.962475858278622e-06
+        }
+      },
+      "s10": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.35982512016680956,
+          "sd": 0.13457562702246711
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 42.601367640076205,
+          "sd": 3.288675589474253
+        },
+        "gpu_board_joules": {
+          "n": 10,
+          "mean": 2798.3281923912577,
+          "sd": 230.54541322368934
+        },
+        "gpu_board_efficiency_inverse_joules": {
+          "n": 10,
+          "mean": 0.0003593848004976003,
+          "sd": 2.7418043053415465e-05
+        }
+      }
+    },
+    "coralscapes": {
+      "whole": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.04099941675087438,
+          "sd": 0.009724220016379712
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 0.22291572659742087,
+          "sd": 0.0033977359895173715
+        },
+        "gpu_board_joules": null,
+        "gpu_board_efficiency_inverse_joules": null
+      },
+      "sam3": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.03614715239647749,
+          "sd": 0.023780088030356313
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 4.627652755123563,
+          "sd": 0.012862020466511675
+        },
+        "gpu_board_joules": {
+          "n": 10,
+          "mean": 300.6218000207842,
+          "sd": 1.6040419691280858
+        },
+        "gpu_board_efficiency_inverse_joules": {
+          "n": 10,
+          "mean": 0.003326523917372884,
+          "sd": 1.773864777425745e-05
+        }
+      },
+      "s05": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.43618629140653525,
+          "sd": 0.1363145862227491
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 317.92107198711017,
+          "sd": 0.5476943290205435
+        },
+        "gpu_board_joules": {
+          "n": 10,
+          "mean": 21243.01108657329,
+          "sd": 106.04045203965688
+        },
+        "gpu_board_efficiency_inverse_joules": {
+          "n": 10,
+          "mean": 4.707536176499802e-05,
+          "sd": 2.350461035506154e-07
+        }
+      },
+      "s10": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.26594125540804014,
+          "sd": 0.07435986304707257
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 76.68022903758101,
+          "sd": 0.30482657012057085
+        },
+        "gpu_board_joules": {
+          "n": 10,
+          "mean": 5099.890594830498,
+          "sd": 34.147100173737684
+        },
+        "gpu_board_efficiency_inverse_joules": {
+          "n": 10,
+          "mean": 0.00019609046598161929,
+          "sd": 1.2990951188035887e-06
+        }
+      }
+    },
+    "pmid": {
+      "whole": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.028068520475573854,
+          "sd": 0.0073911995894940085
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 0.17505140148568898,
+          "sd": 0.139705624039304
+        },
+        "gpu_board_joules": null,
+        "gpu_board_efficiency_inverse_joules": null
+      },
+      "sam3": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.0903737389148302,
+          "sd": 0.031691730347725676
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 5.07459156892728,
+          "sd": 0.34807758987603715
+        },
+        "gpu_board_joules": {
+          "n": 10,
+          "mean": 333.3570192473534,
+          "sd": 19.16629734473725
+        },
+        "gpu_board_efficiency_inverse_joules": {
+          "n": 10,
+          "mean": 0.0030079873953115614,
+          "sd": 0.000158811821788233
+        }
+      },
+      "s05": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.4555654211073564,
+          "sd": 0.11847755518021147
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 203.12662227489054,
+          "sd": 16.394950021121097
+        },
+        "gpu_board_joules": {
+          "n": 10,
+          "mean": 13566.271255166252,
+          "sd": 1133.89671192375
+        },
+        "gpu_board_efficiency_inverse_joules": {
+          "n": 10,
+          "mean": 7.430415317533629e-05,
+          "sd": 7.869473126714944e-06
+        }
+      },
+      "s10": {
+        "rgb_edge_f1": {
+          "n": 10,
+          "mean": 0.28821301820223283,
+          "sd": 0.13816206494399677
+        },
+        "extraction_seconds": {
+          "n": 10,
+          "mean": 49.297124625975265,
+          "sd": 3.0393216670244505
+        },
+        "gpu_board_joules": {
+          "n": 10,
+          "mean": 3258.5553375909626,
+          "sd": 216.8937525498916
+        },
+        "gpu_board_efficiency_inverse_joules": {
+          "n": 10,
+          "mean": 0.00030836239330947485,
+          "sd": 2.467180929550432e-05
+        }
+      }
+    }
+  },
+  "plot_counts": {
+    "duration_observations": 200,
+    "efficiency_observations": 150,
+    "duration_domain_means": 20,
+    "efficiency_domain_means": 15
+  }
+}

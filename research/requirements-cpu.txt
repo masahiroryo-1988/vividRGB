@@ -1,0 +1,8 @@
+# Versions recorded in the frozen 50-image clustering metadata; Python 3.12.3.
+numpy==2.5.2
+scipy==1.18.1
+scikit-learn==1.9.1
+Pillow==12.3.0
+threadpoolctl==3.7.0
+matplotlib==3.11.2
+

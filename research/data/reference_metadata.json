@@ -1,0 +1,453 @@
+{
+  "10.1093/icesjms/fsz171": {
+    "title": [
+      "Developing a microscopic image dataset in support of intelligent phytoplankton detection using deep learning"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5625-7396",
+        "authenticated-orcid": false,
+        "given": "Qiong",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "College of Information Science and Engineering, Ocean University of China, 238 Songling Road, Qingdao 266100, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1870-9037",
+        "authenticated-orcid": false,
+        "given": "Xin",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Information Science and Engineering, Ocean University of China, 238 Songling Road, Qingdao 266100, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junyu",
+        "family": "Dong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Information Science and Engineering, Ocean University of China, 238 Songling Road, Qingdao 266100, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shuqun",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "CAS Key Laboratory of Marine Ecology and Environmental Sciences, Institute of Oceanology, Chinese Academy of Sciences, 7 Nanhai Road, Qingdao 266071, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tongtong",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Information Science and Engineering, Ocean University of China, 238 Songling Road, Qingdao 266100, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dan",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Information Science and Engineering, Ocean University of China, 238 Songling Road, Qingdao 266100, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Han",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Information Science and Engineering, Ocean University of China, 238 Songling Road, Qingdao 266100, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shuai",
+        "family": "Han",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Information Science and Engineering, Ocean University of China, 238 Songling Road, Qingdao 266100, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "ICES Journal of Marine Science"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          20
+        ]
+      ]
+    },
+    "volume": "77",
+    "issue": "4",
+    "page": "1427-1439",
+    "article-number": null,
+    "URL": "https://doi.org/10.1093/icesjms/fsz171"
+  },
+  "10.1038/s43705-021-00085-1": {
+    "title": [
+      "Network traits predict ecological strategies in fungi"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0512-9500",
+        "authenticated-orcid": false,
+        "given": "C A",
+        "family": "Aguilar-Trigueros",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Freie Universit\u00e4t Berlin, Institut f\u00fcr Biologie , Altensteinstra\u00dfe 6, 14195 Berlin, Germany"
+          },
+          {
+            "name": "Berlin-Brandenburg Institute of Advanced Biodiversity Research (BBIB) , 14195 Berlin, Germany"
+          },
+          {
+            "name": "Department of Biological and Environmental Science, University of Jyv\u00e4skyl\u00e4 , P.O. Box 35, FI-40014 Jyv\u00e4skyl\u00e4, Finland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1845-6738",
+        "authenticated-orcid": false,
+        "given": "L",
+        "family": "Boddy",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Biosciences, Sir Martin Evans Building, Cardiff University , CF10 3AX Cardiff, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3541-7853",
+        "authenticated-orcid": false,
+        "given": "M C",
+        "family": "Rillig",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Freie Universit\u00e4t Berlin, Institut f\u00fcr Biologie , Altensteinstra\u00dfe 6, 14195 Berlin, Germany"
+          },
+          {
+            "name": "Berlin-Brandenburg Institute of Advanced Biodiversity Research (BBIB) , 14195 Berlin, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8942-6897",
+        "authenticated-orcid": false,
+        "given": "M D",
+        "family": "Fricker",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Plant Sciences, University of Oxford , South Parks Road, OX1 3RB Oxford, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "ISME Communications"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          5
+        ]
+      ]
+    },
+    "volume": "2",
+    "issue": "1",
+    "page": null,
+    "article-number": "2",
+    "URL": "https://doi.org/10.1038/s43705-021-00085-1"
+  },
+  "10.1007/BF02289233": {
+    "title": [
+      "The Varimax Criterion for Analytic Rotation in Factor Analysis"
+    ],
+    "author": [
+      {
+        "given": "Henry F.",
+        "family": "Kaiser",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Psychometrika"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1958,
+          9
+        ]
+      ]
+    },
+    "volume": "23",
+    "issue": "3",
+    "page": "187-200",
+    "article-number": null,
+    "URL": "https://doi.org/10.1007/bf02289233"
+  },
+  "10.1016/0377-0427(87)90125-7": {
+    "title": [
+      "Silhouettes: A graphical aid to the interpretation and validation of cluster analysis"
+    ],
+    "author": [
+      {
+        "given": "Peter J.",
+        "family": "Rousseeuw",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Computational and Applied Mathematics"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1987,
+          11
+        ]
+      ]
+    },
+    "volume": "20",
+    "issue": null,
+    "page": "53-65",
+    "article-number": null,
+    "URL": "https://doi.org/10.1016/0377-0427(87)90125-7"
+  },
+  "10.1214/aos/1176344136": {
+    "title": [
+      "Estimating the Dimension of a Model"
+    ],
+    "author": [
+      {
+        "given": "Gideon",
+        "family": "Schwarz",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "The Annals of Statistics"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1978,
+          3,
+          1
+        ]
+      ]
+    },
+    "volume": "6",
+    "issue": "2",
+    "page": null,
+    "article-number": null,
+    "URL": "https://doi.org/10.1214/aos/1176344136"
+  },
+  "10.1038/s41598-021-95616-0": {
+    "title": [
+      "Deep learning and citizen science enable automated plant trait predictions from photographs"
+    ],
+    "author": [
+      {
+        "given": "Christopher",
+        "family": "Schiller",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sebastian",
+        "family": "Schmidtlein",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Coline",
+        "family": "Boonman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alvaro",
+        "family": "Moreno-Mart\u00ednez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Teja",
+        "family": "Kattenborn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          12
+        ]
+      ]
+    },
+    "volume": "11",
+    "issue": "1",
+    "page": null,
+    "article-number": "16395",
+    "URL": "https://doi.org/10.1038/s41598-021-95616-0"
+  }
+}

@@ -1,0 +1,102 @@
+name: Publish verified distributions
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Publish to TestPyPI first; PyPI requires matching TestPyPI artifacts'
+        required: true
+        type: choice
+        default: testpypi
+        options: [testpypi, pypi]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: python -m pip install ".[dev,plots]"
+      - run: python -m pytest -q
+      - run: python research/scripts/ffa_recompute_statistics.py --data research/data
+      - run: python -m build
+      - run: python -m twine check dist/*
+      - id: version
+        run: python tools/distribution_info.py --github-output
+      - uses: actions/upload-artifact@v5
+        with:
+          name: distributions
+          path: dist/
+  testpypi:
+    if: inputs.target == 'testpypi'
+    needs: build
+    runs-on: ubuntu-latest
+    environment: testpypi
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v6
+        with:
+          name: distributions
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          repository-url: https://test.pypi.org/legacy/
+  test-install:
+    if: inputs.target == 'testpypi'
+    needs: [build, testpypi]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@v6
+        with:
+          name: distributions
+          path: dist/
+      - run: python tools/verify_testpypi.py --version "${{ needs.build.outputs.version }}"
+      - name: Install normal dependencies from PyPI, then only this package from TestPyPI
+        run: |
+          python -m pip install dist/*.whl
+          python -m pip install --no-deps --force-reinstall --index-url https://test.pypi.org/simple/ "vividRGB==${{ needs.build.outputs.version }}"
+          cd "$RUNNER_TEMP"
+          python -c "import vividRGB; import importlib.metadata as m; assert vividRGB.__version__ == m.version('vividRGB')"
+          vividrgb --version
+  verify-testpypi:
+    if: inputs.target == 'pypi'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v6
+        with:
+          name: distributions
+          path: dist/
+      - run: python tools/verify_testpypi.py --version "${{ needs.build.outputs.version }}"
+  pypi:
+    if: inputs.target == 'pypi'
+    needs: [build, verify-testpypi]
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v6
+        with:
+          name: distributions
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1

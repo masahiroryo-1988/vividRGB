@@ -1,0 +1,192 @@
+{
+  "research_script_count": 35,
+  "imports": {
+    "audit_ecology75_results.py": [],
+    "auto_clusters50.py": [
+      "auto_clusters50_extract.py",
+      "pca_whitening10.py"
+    ],
+    "auto_clusters50_extract.py": [
+      "clustering_methods10.py"
+    ],
+    "build_ffa_preprint_evidence.py": [
+      "ffa_cost_tradeoff.py"
+    ],
+    "clustering_methods10.py": [
+      "ecology75_benchmark.py",
+      "multiscale_benchmark.py",
+      "phase1_benchmark.py",
+      "phase1_fourflip_benchmark.py"
+    ],
+    "cross_domain_benchmark.py": [
+      "multiscale_benchmark.py",
+      "phase1_benchmark.py",
+      "phase1_fourflip_benchmark.py"
+    ],
+    "ecology75_benchmark.py": [
+      "cross_domain_benchmark.py",
+      "multiscale_benchmark.py",
+      "phase1_benchmark.py",
+      "phase1_fourflip_benchmark.py"
+    ],
+    "ecology75_sam3_hf.py": [
+      "ecology75_benchmark.py"
+    ],
+    "ffa_cost_tradeoff.py": [],
+    "ffa_manuscript_tables.py": [],
+    "ffa_recompute_statistics.py": [],
+    "ffa_reference_metadata.py": [],
+    "ffa_workflow_figure.py": [],
+    "gmm_final50.py": [
+      "auto_clusters50.py",
+      "pca_whitening10.py"
+    ],
+    "gmm_final50_stability.py": [
+      "gmm_final50.py"
+    ],
+    "multiscale_benchmark.py": [
+      "phase1_benchmark.py",
+      "phase1_fourflip_benchmark.py"
+    ],
+    "pca_whitening10.py": [
+      "clustering_methods10.py"
+    ],
+    "phase1_benchmark.py": [
+      "score_leaf_references.py"
+    ],
+    "phase1_fourflip_benchmark.py": [
+      "phase1_benchmark.py"
+    ],
+    "test_gmm_final50.py": [
+      "gmm_final50.py"
+    ],
+    "collect_ecology_examples.py": [
+      "acquire_cross_domain.py"
+    ],
+    "prepare_ecology75_moin.py": [],
+    "acquire_cross_domain.py": [],
+    "prepare_multiscale_pilot.py": [],
+    "finalize_gmm_final50.py": [
+      "build_gmm_final50.py",
+      "gmm_final50.py"
+    ],
+    "finalize_multiscale_pilot.py": [
+      "build_multiscale_report.py",
+      "inspect_multiscale_pilot.py"
+    ],
+    "auto_clusters50_bic.py": [
+      "auto_clusters50.py"
+    ],
+    "build_phase1_dashboard.py": [
+      "score_leaf_references.py"
+    ],
+    "build_multiscale_report.py": [
+      "inspect_multiscale_pilot.py",
+      "multiscale_benchmark.py",
+      "phase1_benchmark.py",
+      "phase1_fourflip_benchmark.py"
+    ],
+    "build_auto_clusters50.py": [
+      "audit_auto_clusters50_features.py",
+      "auto_clusters50.py",
+      "auto_clusters50_bic.py",
+      "auto_clusters50_extract.py",
+      "test_auto_clusters50.py"
+    ],
+    "build_gmm_final50.py": [
+      "gmm_final50.py",
+      "gmm_final50_stability.py",
+      "test_gmm_final50.py"
+    ],
+    "score_leaf_references.py": [],
+    "inspect_multiscale_pilot.py": [],
+    "audit_auto_clusters50_features.py": [
+      "auto_clusters50.py"
+    ],
+    "test_auto_clusters50.py": [
+      "auto_clusters50.py"
+    ]
+  },
+  "originals": {
+    "acquire_cross_domain.py": "f84287af76687d9fb0e58ab663d3215ce378793e60fb7fc3ac6cc57db3b9f17b",
+    "audit_auto_clusters50_features.py": "d13b40adef3ce64cd89895dba38078e6bea183c0c0597dda56e6d6ce9332fd12",
+    "audit_ecology75_results.py": "501e72c415aaf871a91b71760008d1d42336c6805b1d530a3e88d2614d1ecbe8",
+    "auto_clusters50.py": "17cd7c6b9694b0a566a95e6c47971e141a9974908cdb46991a83ad03e25ef8b2",
+    "auto_clusters50_bic.py": "7095a2997fc6441a80d7daaa3e2d216da2b784590106fb2133b4ad83d18dcac7",
+    "auto_clusters50_extract.py": "a0960d60149c42687a1a63c2d876cd128b7fd96904751452e2e9d1b7ac5955d7",
+    "build_auto_clusters50.py": "677ce187ff08f976fbec3eff3e133b62320df4e2b2c23158d0bbf7e220890dc2",
+    "build_ffa_preprint_evidence.py": "f142ebc91564f70d2b44951c5edb575795a07798d75a9a2ccbb56f33e8e4694a",
+    "build_gmm_final50.py": "dece1e86154829d1eaeba06f523663f0852517ec6a20ff3804889724e7776959",
+    "build_multiscale_report.py": "3b8b17b3b026a826dcf61225ffab60b2bebf4065c4b0365ce863ab00760373ec",
+    "build_phase1_dashboard.py": "2404134e54543a57742f66ee65e985ace2fb2d4425f7165a56128de7300aadc6",
+    "clustering_methods10.py": "1651da29f0ec7d2a01afa80f1b43cf77ee1fde247ba9c2590e7daccd3c50fadf",
+    "collect_ecology_examples.py": "d45ec5d247ca189b8b679c0c9a02ba5140d345aade1dc8bd78246cbe3c41d208",
+    "cross_domain_benchmark.py": "816283f5e55b33a87e2da6b01139a7007ef468ccb5685e7db5009a4b5df023c6",
+    "ecology75_benchmark.py": "328df536c00a34d6f72a8b21e3a22fb041b756c03dd1d77133d31c32e1381cf0",
+    "ecology75_sam3_hf.py": "c30e5fa225d03d24472985998a8a15f8b4e8cdd85f61e5484c4ffb1bd6441aa4",
+    "ffa_cost_tradeoff.py": "364ff7bfa955ebc796424df3b8d4ee6e465e1370123cd0be1622bc471479435f",
+    "ffa_manuscript_tables.py": "3bf6b3bde0f89a3642bd1a24e9ff7769ad5c450fcc29c77faf07fd52994606d2",
+    "ffa_recompute_statistics.py": "963f108062b9a1a0becfc57baa169123d717e8895c094dfa53d5b2f68144ac2c",
+    "ffa_reference_metadata.py": "03857b66abc68de20c0c02d896e714aea03a396e8769881c806bd770d87b2953",
+    "ffa_workflow_figure.py": "ebcd8392f7c53a0ea311f1dd83aebba5573d124e31875cedd62cecad7972acf2",
+    "finalize_gmm_final50.py": "2a0e1c42d89e875e3884600020dd680a545f2f44fe9555c32741309e35c46cf3",
+    "finalize_multiscale_pilot.py": "b34f2f656c66877d5b518745ff7d65128fc797716d3f5263688013f8ca3a8442",
+    "gmm_final50.py": "2b472f9e724de63ecfd38d7ff5676c81a1109e08f5d11e1e25ada3ca121ee559",
+    "gmm_final50_stability.py": "27bff8f056d94fe9dab82e741b728de75e1c3012b22cadc77d42b4f8d0d41233",
+    "inspect_multiscale_pilot.py": "315085e86937e2f1baccde77a8e66e0ba7ca95c2983d7e49deb23e708157cfb4",
+    "multiscale_benchmark.py": "2b3a65ff8fa1b4f4896f6166a434bca44a3c75bfc0cf1e86096f0faa7ccc08f1",
+    "pca_whitening10.py": "e571b1deb465f2ada8b3c3c4eee6f5bd99a087f72d2bfe51120a652b5337690f",
+    "phase1_benchmark.py": "4a8842d536ad3f497517e0512e1ebfe296a698e1e6c05bd5ec548833ab7bdff1",
+    "phase1_fourflip_benchmark.py": "a9e11ca5a6685f21563cd204421d0bfe5ac55cb6a3bc5b1082dc2199b884a59a",
+    "prepare_ecology75_moin.py": "42a50c7498e1d0c5321bebd65c28b79d4b2ee8161e12e92ac7ff8c3ab2cd649d",
+    "prepare_multiscale_pilot.py": "6ba27326ced05ce16ab9616529bd85855cfe62e867206d9bb4023f890add9ef6",
+    "score_leaf_references.py": "50a1e0bac8c4f89b2eb227de527ff9fd622cbe5aa11086e6835b7137e6e2e7fc",
+    "test_auto_clusters50.py": "2623f04d64cc929a9106e95b4cba6f6e8900699865b4245b7d54f64330537fdf",
+    "test_gmm_final50.py": "adc3cdca7d4a9c582ddae36e3e4e76c735a37f5b98c47d6c58f2802e9cb99a7e"
+  },
+  "portable": {
+    "acquire_cross_domain.py": "c002944aa5b14c51d4484c82c1aa663dc0d10b29a0d0a3278c7d5fd0c096055a",
+    "audit_auto_clusters50_features.py": "3660694b3fc760c769733c65f4c22bd8cf58a36707e34b8bdef0a22ed4e69c8f",
+    "audit_ecology75_results.py": "b1203abdfb320f60ec9634436d9c782119595784a4acd0b6506857ea82a8bd7f",
+    "auto_clusters50.py": "9cc9b22fcb49de75b5c955830361655467712d4a80bb33c6b3bedd846fe82504",
+    "auto_clusters50_bic.py": "a3c2a0caa365c8ec0c9e064bcf22d9eefb351adc41d03aae69a144def923a1cd",
+    "auto_clusters50_extract.py": "43d1bda29a1e7e04ba1aa9a4477be2c8750916598a74b9bc8a83ee5e209a3a3e",
+    "build_auto_clusters50.py": "aeb893476d87a96aed5e5174aec4833fda2666490f18efe1c1aedbebfda10379",
+    "build_ffa_preprint_evidence.py": "242800f18a2d9b4fafeaff7de10dd354b3743ea498cf21ce60095158964b5871",
+    "build_gmm_final50.py": "e99dd744c0b8ca066b08a64df0c7fc029583f41ee12cb39257cee547a1ddfefa",
+    "build_multiscale_report.py": "83bb468c9862f9cd713e9ba2e84636afd4121e989a12120b0b4383857369855d",
+    "build_phase1_dashboard.py": "47a244b498b6678bf016fc7f528a4489da538a7cd5bfc76c51a09b69018e2665",
+    "clustering_methods10.py": "a3bddd97bcb7602d467b701794a0bf87d9f071b5d67c171311b5f8fa693b247d",
+    "collect_ecology_examples.py": "54914c2fcf69b85cb2f91e377ba0d322ce1fe4785028618fa438619bb7d5fe02",
+    "cross_domain_benchmark.py": "3d9d80db86fe9cc331f673f9258eba6184a7cfba21c0c9f7dfcb567da101928b",
+    "ecology75_benchmark.py": "db56e7f48c3cddbed8151f63d9d6d5da26b7dfcc0c55240124c62d6535e51649",
+    "ecology75_sam3_hf.py": "2892cc4ef3b93c7f17d2a5f9ca1dd135e65ff138232a6cfc171d46564e852e09",
+    "ffa_cost_tradeoff.py": "effb5ea1d2cc44a5bf64d722925b0dcb7ecc73a6b1ebe5723fd2bf381757a92c",
+    "ffa_manuscript_tables.py": "467b7f9cc7c567b1a84bf2b0937a8aea823b10500e4517c79facb934c2d1349c",
+    "ffa_recompute_statistics.py": "098718db1abd1dab4bdac32ccbd9c888323ad8ca576bc94835f58becbf156565",
+    "ffa_reference_metadata.py": "319e389f38c5349bb4fc679000d4aa83fdfc0135c86a6d34e1ffe5659ecbbdb2",
+    "ffa_workflow_figure.py": "9511c486ea6a401b3d10491cc73851d1f543410054bd8793a11cccdebd7db79d",
+    "finalize_gmm_final50.py": "90bc41951cfb169f91c89fd1f86fd15f5c484075b306f57d2e830d4cc4ad7c12",
+    "finalize_multiscale_pilot.py": "8999f6d7f86189f141f62400bcc40383e37f58de5aaae2cd26315911fb519154",
+    "gmm_final50.py": "5f021028e9cc43b0f8572f9cbc6f3d9c2f7f155f3bd1554a12abf8997594d4d7",
+    "gmm_final50_stability.py": "10454ad7425e0896ef4b60c2a0171dcf2982cdba13c78dfcabc090638ddfe7f6",
+    "inspect_multiscale_pilot.py": "d07858b0c919ab0458ba2238e44e033c32fcec93451d990fa96755972774520c",
+    "multiscale_benchmark.py": "997a28b8b9fbd237b9b5cc037780c5c5abc89c747a38c20abbb147ae5a64130f",
+    "pca_whitening10.py": "e4040f50f7b987fd03efbfd74de1b8ec57d02707ea2bdeb32144b7f3b285cb47",
+    "phase1_benchmark.py": "7ff4f5db274d5c88259efda5cbbcdc257c4edf1eb87b51f2420dfc55965c0ca4",
+    "phase1_fourflip_benchmark.py": "4da4238c93ff0b619d3c0023461de699c001609c357f73e5da0e5214889d0118",
+    "prepare_ecology75_moin.py": "726859723061b4dffec8fcb7404c381075fc39b5f1096ab2463931ac10b55de4",
+    "prepare_multiscale_pilot.py": "ccd6dafc37856521892763e4c6208060bee5d30c67e34624a3bc1e5317e6bd17",
+    "score_leaf_references.py": "a795a3364afa392e98fc59694263cfc3152155a98e7747179b632cc89377b0f3",
+    "test_auto_clusters50.py": "a5fadc81adcdc987171bc027101260bba26a32123f40b4b4633c172ce0e8e7f1",
+    "test_gmm_final50.py": "fa5469930fa4d6001d850061ca2b40e3311c44ffc2296b33c01435f19e9f3994"
+  },
+  "path_root": "/home/masahiro/kics-zert2",
+  "portable_environment": "VIVIDRGB_RESEARCH_ROOT",
+  "path_changes_only": true,
+  "supporting_assets": {
+    "auto_clusters50_template.html": "bf9b7815df109e5a8e6120a3f14a7f6e4b80a0b8d81e8a775688faa7247b1bdd",
+    "gmm_final50_protocol.json": "20b4eeb534d96d3825270430dc757b4b3bb39c0eeafefc0f8c3c7a3c6f5df242",
+    "gmm_final50_template.html": "0713ceee52e39932265a08bf9a0970121a028d020e18b1f9af2ee4a8ee10d40a"
+  }
+}

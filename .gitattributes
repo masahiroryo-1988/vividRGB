@@ -1,0 +1,8 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+# Preserve frozen evidence and byte-exact script snapshots on every platform.
+research/** -text
+docs/third-party/** -text
