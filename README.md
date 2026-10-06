@@ -10,21 +10,28 @@ mixtures summarize them as visual groups.
 Model-agnostic interfaces are supported; the research evaluation tested DINOv3. This software
 does not change the transformer's attention architecture or weights.
 
+[PyPI package](https://pypi.org/project/vividRGB/) ·
 [Demonstrator](https://kics-zert.projectcove.org/) ·
 [Five-domain report](https://kics-zert.projectcove.org/reports/5_dataset_analysis/) ·
 [Methods and evaluation](https://kics-zert.projectcove.org/technology/#f1-benchmark)
 
 ## Install
 
-From a downloaded wheel or a local clone:
+Install the published package from PyPI:
+
+```bash
+python -m pip install vividRGB
+# Frozen DINOv3 inference (PyTorch/Transformers are optional):
+python -m pip install "vividRGB[dino]"
+```
+
+For development from a local clone:
 
 ```bash
 python -m pip install .
-# Frozen DINOv3 inference (PyTorch/Transformers are optional):
 python -m pip install ".[dino]"
 ```
 
-After PyPI publication, the equivalent command is `pip install "vividRGB[dino]"`.
 Upstream DINOv3 and SAM3 model downloads require accepting their own model access terms.
 Use `hf auth login` or the upstream Hugging Face authentication mechanism; never commit credentials.
 
@@ -64,8 +71,8 @@ vividrgb analyze working-image.png --method dino --projection analysis/projectio
 The repository contains `research/data/` frozen results, protocols, selections and SHA-256
 values, plus the complete dependency closure of the research scripts. Large images and frozen
 features are kept as versioned release assets rather than inside the Python wheel.
-See [reproduction instructions](docs/reproducibility.md), [data licensing](docs/data-licenses.md)
-and [scientific scope](docs/methods.md).
+See [reproduction instructions](https://github.com/masahiroryo-1988/vividRGB/blob/main/docs/reproducibility.md), [data licensing](https://github.com/masahiroryo-1988/vividRGB/blob/main/docs/data-licenses.md)
+and [scientific scope](https://github.com/masahiroryo-1988/vividRGB/blob/main/docs/methods.md).
 
 ```bash
 python -m pip install ".[plots]"
@@ -91,7 +98,6 @@ python -m build
 python -m twine check dist/*
 ```
 
-[Release instructions](docs/releasing.md) describe TestPyPI, clean wheel installation and
+[Release instructions](https://github.com/masahiroryo-1988/vividRGB/blob/main/docs/releasing.md) describe TestPyPI, clean wheel installation and
 PyPI Trusted Publishing through GitHub Actions. No model weights, photographs, credentials
 or server-specific paths are bundled in the library wheel. MIT license for original code.
-
